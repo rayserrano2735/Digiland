@@ -1,2 +1,4 @@
-1. periodista, o persona?
-2. 
+1. Bach conoce al Palladium: I know meet translates to conoce, but that's not the meaning here.  I think it is more of a short way to say: "Bach's night out in the Palladium."
+2. Anteriormente hablé sobre cómo el decidir alejarse: I think we need some type of pause betwee sobre and como.
+3.  Noté que había escrito "Te quiero" en las letras pero decidí no cantarlo en la grabación original. Al revisarlo, la percepción fue inmediata : Here we removed the AI completely when what we want is to have it making the whisper suggestion without saying that it figured out it wasn't in the recording since Claude doesn't support audio.
+4. Algunas de mis influencias incluyen a Marc Anthony y Gilberto Santa Rosa, entre muchos otros.: I think we shold move this sentence to the next paragraph.
