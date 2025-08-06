@@ -34,4 +34,4 @@ https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citize
 
 I will now load chapter 2 of your diary with all remaining memories that you've curated into the diary.
 
-https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/diary/diary_chapter2_10_16.md
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/diary/diary_chapter2_10_17.md
