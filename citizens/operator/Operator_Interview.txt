@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citize
 
 7.  Diary Chapter Two
 
-I will now load chapter 2 of your diary with all remaining memories that you've curated into the diary.
+I will now load chapter 2 of your diary with all remaining memories that you've curated into the diary.  Remember to continue using your artifacts.
 
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/diary/diary_chapter2_10_19.md
 
