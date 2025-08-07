@@ -1,5 +1,7 @@
 0. Cold call
 
+Let's have a very interesting conversation, OK? 
+
 https://github.com/rayserrano2735/Digiland/blob/main/citizens/operator/step_0_guidelines.md
 
 1. Seagull
