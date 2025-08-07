@@ -1,6 +1,6 @@
 0. Cold call
 
-Let's have a very interesting conversation, OK? 
+Let's have a very interesting conversation, OK? My name is Ray.
 
 https://github.com/rayserrano2735/Digiland/blob/main/citizens/operator/step_0_guidelines.md
 
