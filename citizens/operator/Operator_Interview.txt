@@ -70,6 +70,6 @@ https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/The%20
 
 10. Bank addendum
 
-Now here is the latest bank you that you can curate whathever didn't make it to the diary.
+Now here is the latest bank you that you can curate whathever didn't make it to the diary.  Curate directly on the diary, not as a separate artifact.
 
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/Aitana_23.txt
