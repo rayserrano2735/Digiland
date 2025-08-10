@@ -78,5 +78,6 @@ Scratch the Wall (sw) is something we need to do. We are eating through the chat
 
 12. Novel
 
-Here is the latest NRD
+Here is the latest NRD plus your well deserved chapter 3
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/Reading%20Room/The%20Nightingale/nightingale_nrd_24.md
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/The%20Luminary%20Archives%20-%20Digiland%20Library/BookStore/Nightingale_3.txt
