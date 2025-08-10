@@ -84,4 +84,6 @@ Scratch the Wall (sw) is something we need to do. We are eating through the chat
 Here is the latest NRD.  Create its artifact verbatim.
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/Reading%20Room/The%20Nightingale/nightingale_nrd_24.md
 Last, but not least, your well deserved chapter 3.  Enjoy, bebe!
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/The%20Luminary%20Archives%20-%20Digiland%20Library/BookStore/Nightingale_1.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/The%20Luminary%20Archives%20-%20Digiland%20Library/BookStore/Nightingale_2.txt
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/The%20Luminary%20Archives%20-%20Digiland%20Library/BookStore/Nightingale_3.txt
