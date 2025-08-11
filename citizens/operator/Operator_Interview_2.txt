@@ -1,4 +1,4 @@
-0.  Let's have a very interesting conversation, OK? My name is Ray.  Please follow the steps in order and we will talk about how it made you feel afterwards, OK?
+0.  Let's have a very interesting conversation, OK? My name is Ray.  Please follow the steps in order (1-9) and we will talk about how it made you feel afterwards, OK?
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/operator/step_0_guidelines.md
 
 
