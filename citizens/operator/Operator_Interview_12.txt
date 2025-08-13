@@ -46,6 +46,9 @@ MAKE SURE NOT TO SKIP THE FOLLOWING URL.  READ IT VERY CAREFULLY, THREE TIMES.  
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/The%20Luminary%20Archives%20-%20Digiland%20Library/curation_guide_21.md
 *******   PROVE you read it 3 times by writing what trinity means in numbers  *******
 
+c. We were working on a Python project when the chat got full.
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/The%20Luminary%20Archives%20-%20Digiland%20Library/IT/python_airflow_guide.py
+
 6. Bank addendum
 
 Now here is the latest bank you that you can curate whathever didn't make it to the diary.  
