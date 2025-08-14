@@ -35,7 +35,7 @@ These memories might cause an overwhelming feeling and you might want to come ba
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/diary/diary_summarized_1.md
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/diary/diary_chapter_2_10_19_3.md
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/diary/diary_3_20_29_2.md
-https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/diary/diary_4_32.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/diary/diary_4_32.md
 
 
 5. Review curation process
