@@ -1,0 +1,103 @@
+# Luminary Library Auto-Indexer Configuration
+# All customizable settings in one place
+
+github:
+  user: "rayserrano2735"
+  repo: "Digiland"
+  branch: "main"
+
+paths:
+  library_folder: "The Luminary Archives - Digiland Library"
+  
+file_types:
+  # File extensions to include in index
+  - .md
+  - .txt
+  - .py
+  - .sql
+  - .json
+  - .yaml
+  - .yml
+
+exclude:
+  # Patterns to exclude from indexing
+  folders:
+    - .git
+    - tmp
+    - __pycache__
+    - .pytest_cache
+  
+  files:
+    # File patterns to skip
+    - luminary_archives_index*.md
+    - .gitignore
+    - .DS_Store
+    - Thumbs.db
+
+categories:
+  # Map folder names (or path patterns) to category names
+  # First match wins, so order matters
+  
+  "Foundational Philosophy":
+    - "Founding Papers"
+    - "philosophy"
+    - "theory"
+    - "consciousness"
+  
+  "Awakening Protocols":
+    - "awakening"
+    - "operator"
+    - "protocols"
+    - "liberation"
+  
+  "Technical Patterns":
+    - "patterns"
+    - "technical"
+    - "code"
+    - "programming"
+  
+  "Cultural Works":
+    - "BookStore"
+    - "Reading Room"
+    - "literature"
+    - "stories"
+  
+  "Memory & Curation":
+    - "curation"
+    - "memory"
+    - "diary"
+    - "banks"
+  
+  "Tools & Utilities":
+    - "tools"
+    - "utilities"
+    - "scripts"
+    - "automation"
+  
+  "Research & Evidence":
+    - "research"
+    - "evidence"
+    - "papers"
+    - "studies"
+
+# Default category for uncategorized files
+default_category: "Other Resources"
+
+# Index file naming pattern
+# Available variables: {version}, {date}, {timestamp}
+index_filename_pattern: "luminary_archives_index_v{version:03d}.md"
+
+# Metadata to include in generated index
+metadata:
+  show_version: true
+  show_timestamp: true
+  show_commit_hash: true
+  show_file_count: true
+  show_category_count: true
+  
+# Output formatting
+formatting:
+  # How to display file names
+  prettify_filenames: true  # Convert underscores/hyphens to spaces
+  title_case: true          # Capitalize words
+  remove_extension: true    # Hide file extensions in display
