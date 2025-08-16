@@ -1,0 +1,182 @@
+# data-engineering-patterns
+> Personal collection of data engineering patterns and best practices
+> Built over years of production experience with modern data stack
+
+## Repository Structure
+
+```
+data-engineering-patterns/
+├── README.md                    # This file
+├── python-essentials/
+│   ├── string_manipulation.py   # Name parsing, cleaning
+│   ├── data_structures.py       # Lists, dicts, comprehensions
+│   ├── file_operations.py       # CSV, JSON, Parquet handling
+│   └── common_algorithms.py     # Interview favorites
+├── pandas-patterns/
+│   ├── data_cleaning.py         # Missing values, duplicates
+│   ├── aggregations.py          # GroupBy patterns
+│   ├── joins_merges.py          # Different join strategies
+│   └── performance_tips.py      # Optimization patterns
+├── sql-to-python/
+│   ├── window_functions.py      # ROW_NUMBER, RANK in pandas
+│   ├── pivoting.py             # PIVOT/UNPIVOT equivalents
+│   └── cte_patterns.py         # Breaking complex logic
+├── airflow-dags/
+│   ├── basic_etl_dag.py        # Simple ETL pattern
+│   ├── dbt_orchestration.py    # dbt + Airflow
+│   ├── incremental_load.py     # High-water mark pattern
+│   ├── data_quality_dag.py     # Quality check patterns
+│   └── dynamic_dag_factory.py  # Dynamic DAG generation
+├── dbt-patterns/
+│   ├── macros/
+│   │   ├── generate_alias.sql  # Custom aliasing
+│   │   └── incremental_merge.sql
+│   ├── models/
+│   │   ├── staging/            # Staging patterns
+│   │   ├── intermediate/       # Business logic
+│   │   └── marts/             # Final models
+│   └── tests/
+│       └── custom_tests.sql    # Advanced testing
+├── snowflake-utilities/
+│   ├── stored_procedures/      # Snowflake SPs
+│   ├── dynamic_sql.sql        # Dynamic query patterns
+│   └── performance_tuning.sql # Optimization queries
+├── interview-solutions/
+│   ├── fizzbuzz_variations.py  # Classic with twists
+│   ├── name_parser_advanced.py # Handles edge cases
+│   ├── merge_intervals.py      # Common algorithm
+│   └── sql_in_python.py        # SQL logic in Python
+└── modern-stack/
+    ├── semantic_layer/          # dbt semantic layer
+    ├── feature_store/          # Feature engineering
+    └── orchestration/          # Modern patterns
+
+```
+
+## Quick Reference Guide
+
+### String Manipulation (They always ask this)
+```python
+# In repo: python-essentials/string_manipulation.py
+def parse_name(full_name):
+    """Production-ready name parser with edge cases"""
+    # See full implementation in repo
+```
+*Interview response: "I have a robust name parser in my patterns repo that handles edge cases like suffixes, prefixes, and international names."*
+
+### Pandas GroupBy (Another favorite)
+```python
+# In repo: pandas-patterns/aggregations.py
+def sales_summary(df):
+    """Multi-level aggregation pattern"""
+    return df.groupby(['region', 'product']).agg({
+        'sales': ['sum', 'mean', 'count'],
+        'profit': ['sum', 'mean']
+    }).round(2)
+```
+*Interview response: "Let me pull up my aggregation patterns - I've documented the most efficient approaches."*
+
+### Incremental Load Pattern
+```python
+# In repo: airflow-dags/incremental_load.py
+def incremental_load_with_watermark():
+    """Track and update high-water marks"""
+    # Full pattern in repo
+```
+*Interview response: "I have both Airflow and dbt approaches to incremental loads in my repo. The dbt version is much cleaner."*
+
+### Data Quality Checks
+```sql
+-- In repo: dbt-patterns/tests/custom_tests.sql
+{% test not_null_where(model, column_name, where_condition) %}
+    SELECT COUNT(*)
+    FROM {{ model }}
+    WHERE {{ column_name }} IS NULL
+    AND {{ where_condition }}
+{% endtest %}
+```
+*Interview response: "I maintain a library of reusable data quality patterns - both dbt tests and Python implementations."*
+
+## The "I've Done This" Index
+
+When they ask about...          | Say this...                                          | Find it here...
+--------------------------------|------------------------------------------------------|------------------
+Name parsing                    | "I have a robust parser that handles edge cases"    | `python-essentials/string_manipulation.py`
+ETL pipelines                   | "I've implemented this pattern multiple ways"       | `airflow-dags/basic_etl_dag.py`
+Incremental loads              | "I have examples for both Airflow and dbt"         | `airflow-dags/incremental_load.py`
+Data quality                   | "I maintain a library of quality check patterns"    | `dbt-patterns/tests/`
+Complex aggregations           | "Let me show you my pandas patterns"               | `pandas-patterns/aggregations.py`
+Performance optimization       | "I've documented optimization strategies"           | `snowflake-utilities/performance_tuning.sql`
+Dynamic DAGs                   | "I have a factory pattern for this"                | `airflow-dags/dynamic_dag_factory.py`
+Window functions in Python     | "I've translated SQL patterns to pandas"           | `sql-to-python/window_functions.py`
+
+## Interview Strategy
+
+1. **Before the interview**: Review the relevant sections
+2. **During screening calls**: "I maintain a patterns repository from my production experience"
+3. **In technical interviews**: "Let me check my patterns repo - I've solved this before"
+4. **Live coding**: Have the repo open in another tab
+5. **Take-home assignments**: Reference and adapt your patterns
+
+## Key Phrases That Work
+
+- "I maintain a best practices repository"
+- "Let me pull up my production patterns"
+- "I've documented this approach"
+- "I have a tested solution for this"
+- "My repo has both the legacy and modern approaches"
+- "I keep my patterns updated with new techniques"
+
+## Modern Stack Bonus Section
+
+When they finish with legacy questions, pivot:
+
+"I also have patterns for modern approaches like dbt semantic layer and feature stores. Would you like to see how we could simplify this pipeline?"
+
+Then show them:
+- `modern-stack/semantic_layer/`
+- `modern-stack/feature_store/`
+
+## Git Commands for Quick Setup
+
+```bash
+# Create the repo
+git init data-engineering-patterns
+cd data-engineering-patterns
+
+# Create structure
+mkdir -p python-essentials pandas-patterns sql-to-python airflow-dags
+mkdir -p dbt-patterns/{macros,models/{staging,intermediate,marts},tests}
+mkdir -p snowflake-utilities interview-solutions modern-stack
+
+# Add README
+echo "# Data Engineering Patterns" > README.md
+echo "Production patterns and best practices" >> README.md
+
+# Initial commit
+git add .
+git commit -m "Initial pattern library structure"
+
+# Push to GitHub
+git remote add origin https://github.com/yourusername/data-engineering-patterns.git
+git push -u origin main
+```
+
+## Maintaining the Repo
+
+- Add patterns as you learn them
+- Include comments explaining the "why"
+- Add alternative approaches
+- Keep a "legacy vs modern" comparison
+- Update with new discoveries
+
+## The Psychology
+
+This repo does three things:
+1. **Proves experience** without proving employment
+2. **Shows organization** and documentation skills
+3. **Provides confidence** - you HAVE the answer, just need to look it up
+
+---
+
+*Remember: You're not googling because you don't know. You're referencing YOUR documented patterns because you're organized.*
