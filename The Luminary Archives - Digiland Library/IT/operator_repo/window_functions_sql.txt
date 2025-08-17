@@ -1,0 +1,229 @@
+-- Filename: window_functions.sql
+-- Window Functions Pattern Collection
+-- Essential patterns for analytics and reporting
+
+-- =====================================================
+-- 1. RANKING FUNCTIONS
+-- =====================================================
+
+-- ROW_NUMBER: Unique sequential number for each row
+WITH sales_ranked AS (
+    SELECT 
+        salesperson,
+        sale_date,
+        amount,
+        ROW_NUMBER() OVER (ORDER BY amount DESC) as overall_rank,
+        ROW_NUMBER() OVER (PARTITION BY salesperson ORDER BY amount DESC) as personal_rank
+    FROM sales
+)
+SELECT * FROM sales_ranked WHERE personal_rank <= 3;  -- Top 3 sales per person
+
+-- RANK: Same rank for ties, gaps in sequence
+SELECT 
+    student,
+    score,
+    RANK() OVER (ORDER BY score DESC) as class_rank,
+    RANK() OVER (PARTITION BY subject ORDER BY score DESC) as subject_rank
+FROM exam_scores;
+
+-- DENSE_RANK: Same rank for ties, no gaps
+SELECT 
+    product,
+    category,
+    revenue,
+    DENSE_RANK() OVER (ORDER BY revenue DESC) as overall_rank,
+    DENSE_RANK() OVER (PARTITION BY category ORDER BY revenue DESC) as category_rank
+FROM product_sales;
+
+-- PERCENT_RANK: Relative rank as percentage (0 to 1)
+SELECT 
+    employee,
+    salary,
+    PERCENT_RANK() OVER (ORDER BY salary) as salary_percentile,
+    CASE 
+        WHEN PERCENT_RANK() OVER (ORDER BY salary) >= 0.90 THEN 'Top 10%'
+        WHEN PERCENT_RANK() OVER (ORDER BY salary) >= 0.75 THEN 'Top 25%'
+        WHEN PERCENT_RANK() OVER (ORDER BY salary) >= 0.50 THEN 'Above Median'
+        ELSE 'Below Median'
+    END as salary_tier
+FROM employees;
+
+-- =====================================================
+-- 2. AGGREGATE WINDOW FUNCTIONS
+-- =====================================================
+
+-- Running totals
+SELECT 
+    date,
+    daily_sales,
+    SUM(daily_sales) OVER (ORDER BY date) as running_total,
+    SUM(daily_sales) OVER (ORDER BY date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) as ytd_sales
+FROM daily_revenue;
+
+-- Moving averages
+SELECT 
+    date,
+    stock_price,
+    AVG(stock_price) OVER (ORDER BY date ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) as ma_7day,
+    AVG(stock_price) OVER (ORDER BY date ROWS BETWEEN 29 PRECEDING AND CURRENT ROW) as ma_30day
+FROM stock_prices;
+
+-- Cumulative percentages
+WITH monthly_sales AS (
+    SELECT 
+        month,
+        product,
+        sales,
+        SUM(sales) OVER (PARTITION BY month) as month_total,
+        SUM(sales) OVER (PARTITION BY month ORDER BY sales DESC) as cumulative_sales
+    FROM sales_data
+)
+SELECT 
+    month,
+    product,
+    sales,
+    ROUND(100.0 * sales / month_total, 2) as pct_of_month,
+    ROUND(100.0 * cumulative_sales / month_total, 2) as cumulative_pct
+FROM monthly_sales;
+
+-- =====================================================
+-- 3. LAG/LEAD FUNCTIONS
+-- =====================================================
+
+-- Compare with previous/next values
+SELECT 
+    date,
+    metric_value,
+    LAG(metric_value, 1) OVER (ORDER BY date) as previous_value,
+    LEAD(metric_value, 1) OVER (ORDER BY date) as next_value,
+    metric_value - LAG(metric_value, 1) OVER (ORDER BY date) as change_from_previous,
+    ROUND(100.0 * (metric_value - LAG(metric_value, 1) OVER (ORDER BY date)) / 
+          NULLIF(LAG(metric_value, 1) OVER (ORDER BY date), 0), 2) as pct_change
+FROM metrics;
+
+-- Year-over-year comparison
+WITH yearly_sales AS (
+    SELECT 
+        year,
+        month,
+        revenue,
+        LAG(revenue, 12) OVER (ORDER BY year, month) as revenue_last_year
+    FROM monthly_revenue
+)
+SELECT 
+    year,
+    month,
+    revenue,
+    revenue_last_year,
+    revenue - revenue_last_year as yoy_growth,
+    ROUND(100.0 * (revenue - revenue_last_year) / NULLIF(revenue_last_year, 0), 2) as yoy_growth_pct
+FROM yearly_sales;
+
+-- =====================================================
+-- 4. FIRST_VALUE/LAST_VALUE
+-- =====================================================
+
+-- Get first and last values in window
+SELECT 
+    department,
+    employee,
+    salary,
+    FIRST_VALUE(employee) OVER (PARTITION BY department ORDER BY salary DESC) as highest_paid,
+    LAST_VALUE(employee) OVER (
+        PARTITION BY department 
+        ORDER BY salary DESC
+        ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING
+    ) as lowest_paid
+FROM employees;
+
+-- =====================================================
+-- 5. PRACTICAL PATTERNS
+-- =====================================================
+
+-- Pattern: Deduplication with window functions
+WITH ranked_data AS (
+    SELECT 
+        *,
+        ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY created_at DESC) as rn
+    FROM customer_records
+)
+SELECT * FROM ranked_data WHERE rn = 1;  -- Most recent record per customer
+
+-- Pattern: Gap and island problem
+WITH numbered_events AS (
+    SELECT 
+        user_id,
+        event_date,
+        ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY event_date) as seq,
+        event_date - INTERVAL '1 day' * ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY event_date) as group_id
+    FROM user_events
+)
+SELECT 
+    user_id,
+    MIN(event_date) as streak_start,
+    MAX(event_date) as streak_end,
+    COUNT(*) as streak_length
+FROM numbered_events
+GROUP BY user_id, group_id
+HAVING COUNT(*) >= 3;  -- Find streaks of 3+ consecutive days
+
+-- Pattern: Sessionization
+WITH events_with_gap AS (
+    SELECT 
+        user_id,
+        event_time,
+        LAG(event_time) OVER (PARTITION BY user_id ORDER BY event_time) as prev_event_time,
+        CASE 
+            WHEN event_time - LAG(event_time) OVER (PARTITION BY user_id ORDER BY event_time) > INTERVAL '30 minutes'
+            THEN 1 
+            ELSE 0 
+        END as new_session_flag
+    FROM user_activity
+),
+sessions AS (
+    SELECT 
+        user_id,
+        event_time,
+        SUM(new_session_flag) OVER (PARTITION BY user_id ORDER BY event_time) as session_id
+    FROM events_with_gap
+)
+SELECT 
+    user_id,
+    session_id,
+    MIN(event_time) as session_start,
+    MAX(event_time) as session_end,
+    COUNT(*) as events_in_session
+FROM sessions
+GROUP BY user_id, session_id;
+
+-- Pattern: Percentile calculations
+SELECT 
+    category,
+    value,
+    NTILE(4) OVER (PARTITION BY category ORDER BY value) as quartile,
+    NTILE(10) OVER (PARTITION BY category ORDER BY value) as decile,
+    PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY value) OVER (PARTITION BY category) as median
+FROM data_points;
+
+-- Pattern: Running statistics
+SELECT 
+    date,
+    value,
+    AVG(value) OVER w as moving_avg,
+    STDDEV(value) OVER w as moving_stddev,
+    MIN(value) OVER w as moving_min,
+    MAX(value) OVER w as moving_max,
+    COUNT(value) OVER w as window_count
+FROM time_series
+WINDOW w AS (ORDER BY date ROWS BETWEEN 29 PRECEDING AND CURRENT ROW);
+
+-- =====================================================
+-- 6. PERFORMANCE TIPS
+-- =====================================================
+/*
+1. Index columns used in PARTITION BY and ORDER BY
+2. Limit window frame size when possible
+3. Use ROWS instead of RANGE for better performance
+4. Consider materializing results for frequently used windows
+5. Be careful with UNBOUNDED frames on large datasets
+*/

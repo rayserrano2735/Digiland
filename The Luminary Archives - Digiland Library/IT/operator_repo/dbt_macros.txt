@@ -1,0 +1,333 @@
+-- Filename: dbt_macros.sql
+-- Essential DBT Macros for Data Engineering
+-- Place these in your dbt project's macros/ folder
+
+-- =====================================================
+-- 1. GENERATE SCHEMA NAME (Multi-environment)
+-- =====================================================
+{% macro generate_schema_name(custom_schema_name, node) -%}
+
+    {%- set default_schema = target.schema -%}
+    {%- if custom_schema_name is none -%}
+
+        {{ default_schema }}
+
+    {%- elif target.name == 'prod' -%}
+
+        {{ custom_schema_name | trim }}
+
+    {%- else -%}
+
+        {{ default_schema }}_{{ custom_schema_name | trim }}
+
+    {%- endif -%}
+
+{%- endmacro %}
+
+-- =====================================================
+-- 2. GENERATE ALIAS NAME (Versioning support)
+-- =====================================================
+{% macro generate_alias_name(custom_alias_name=none, node=none) -%}
+
+    {%- if custom_alias_name is none -%}
+
+        {{ node.name }}
+
+    {%- elif target.name == 'prod' -%}
+
+        {{ custom_alias_name | trim }}
+
+    {%- else -%}
+
+        {{ node.name }}_{{ target.name }}
+
+    {%- endif -%}
+
+{%- endmacro %}
+
+-- =====================================================
+-- 3. INCREMENTAL FILTER
+-- =====================================================
+{% macro incremental_filter(column_name, days_back=3) %}
+    {% if is_incremental() %}
+        where {{ column_name }} >= (
+            select dateadd(day, -{{ days_back }}, max({{ column_name }}))
+            from {{ this }}
+        )
+    {% endif %}
+{% endmacro %}
+
+-- =====================================================
+-- 4. SURROGATE KEY GENERATOR
+-- =====================================================
+{% macro generate_surrogate_key(field_list) %}
+    {%- if target.type == 'snowflake' -%}
+        md5(cast(coalesce(cast({{ field_list|join(' as varchar) || \'|\' || coalesce(cast(') }} as varchar), '') as varchar))
+    {%- elif target.type == 'bigquery' -%}
+        to_hex(md5(cast(coalesce(cast({{ field_list|join(' as string) || \'|\' || coalesce(cast(') }} as string), '') as string)))
+    {%- elif target.type == 'postgres' or target.type == 'redshift' -%}
+        md5({{ field_list|join(' || \'|\' || ') }}::varchar)
+    {%- else -%}
+        md5(cast(coalesce(cast({{ field_list|join(' as varchar) || \'|\' || coalesce(cast(') }} as varchar), '') as varchar))
+    {%- endif -%}
+{% endmacro %}
+
+-- =====================================================
+-- 5. DATE SPINE (Generate date series)
+-- =====================================================
+{% macro date_spine(start_date, end_date) %}
+    {% set query %}
+        with spine as (
+            {{ dbt_utils.date_spine(
+                datepart="day",
+                start_date="cast('" ~ start_date ~ "' as date)",
+                end_date="cast('" ~ end_date ~ "' as date)"
+            ) }}
+        )
+        select 
+            date_day as date,
+            extract(year from date_day) as year,
+            extract(quarter from date_day) as quarter,
+            extract(month from date_day) as month,
+            extract(week from date_day) as week,
+            extract(dayofweek from date_day) as day_of_week,
+            extract(day from date_day) as day,
+            case 
+                when extract(dayofweek from date_day) in (1,7) then true 
+                else false 
+            end as is_weekend
+        from spine
+    {% endset %}
+    
+    {{ return(query) }}
+{% endmacro %}
+
+-- =====================================================
+-- 6. PIVOT DYNAMIC
+-- =====================================================
+{% macro pivot(column_name, values_list, agg_func='sum', agg_column='amount') %}
+    {%- for value in values_list %}
+    {{ agg_func }}(
+        case when {{ column_name }} = '{{ value }}' 
+        then {{ agg_column }} 
+        end
+    ) as {{ value }}{%- if not loop.last %},{% endif %}
+    {%- endfor %}
+{% endmacro %}
+
+-- =====================================================
+-- 7. UNPIVOT
+-- =====================================================
+{% macro unpivot(cast_to='varchar', exclude=[]) %}
+    {% set cols = adapter.get_columns_in_relation(ref(model.name)) %}
+    {% set unpivot_cols = [] %}
+    
+    {% for col in cols %}
+        {% if col.name not in exclude %}
+            {% do unpivot_cols.append(col.name) %}
+        {% endif %}
+    {% endfor %}
+    
+    {%- for col in unpivot_cols %}
+    select 
+        {%- for exclude_col in exclude %}
+        {{ exclude_col }},
+        {%- endfor %}
+        '{{ col }}' as metric_name,
+        cast({{ col }} as {{ cast_to }}) as metric_value
+    from {{ ref(model.name) }}
+    {%- if not loop.last %}
+    union all
+    {%- endif %}
+    {%- endfor %}
+{% endmacro %}
+
+-- =====================================================
+-- 8. CLEAN STRING
+-- =====================================================
+{% macro clean_string(column_name) %}
+    trim(
+        regexp_replace(
+            regexp_replace(
+                regexp_replace(
+                    lower({{ column_name }}),
+                    '[^a-z0-9 ]', ''  -- Remove special characters
+                ),
+                '\\s+', ' '  -- Replace multiple spaces with single space
+            ),
+            '^ | $', ''  -- Remove leading/trailing spaces
+        )
+    )
+{% endmacro %}
+
+-- =====================================================
+-- 9. NULL TO ZERO
+-- =====================================================
+{% macro null_to_zero(field_list) %}
+    {% for field in field_list %}
+    coalesce({{ field }}, 0) as {{ field }}{%- if not loop.last %},{% endif %}
+    {% endfor %}
+{% endmacro %}
+
+-- =====================================================
+-- 10. SAFE DIVIDE
+-- =====================================================
+{% macro safe_divide(numerator, denominator, default_value=0) %}
+    case 
+        when {{ denominator }} = 0 or {{ denominator }} is null 
+        then {{ default_value }}
+        else {{ numerator }}::float / {{ denominator }}
+    end
+{% endmacro %}
+
+-- =====================================================
+-- 11. RUNNING TOTAL
+-- =====================================================
+{% macro running_total(column_name, partition_by=none, order_by='created_at') %}
+    sum({{ column_name }}) over (
+        {% if partition_by %}
+        partition by {{ partition_by }}
+        {% endif %}
+        order by {{ order_by }}
+        rows between unbounded preceding and current row
+    )
+{% endmacro %}
+
+-- =====================================================
+-- 12. LAG WITH DEFAULT
+-- =====================================================
+{% macro lag_with_default(column_name, default_value, periods=1, partition_by=none, order_by='created_at') %}
+    coalesce(
+        lag({{ column_name }}, {{ periods }}) over (
+            {% if partition_by %}
+            partition by {{ partition_by }}
+            {% endif %}
+            order by {{ order_by }}
+        ),
+        {{ default_value }}
+    )
+{% endmacro %}
+
+-- =====================================================
+-- 13. TEST: NOT NULL PERCENTAGE
+-- =====================================================
+{% test not_null_percentage(model, column_name, threshold=0.95) %}
+    with validation as (
+        select 
+            count(*) as total_count,
+            count({{ column_name }}) as not_null_count,
+            count({{ column_name }})::float / count(*) as not_null_percentage
+        from {{ model }}
+    )
+    select *
+    from validation
+    where not_null_percentage < {{ threshold }}
+{% endtest %}
+
+-- =====================================================
+-- 14. TEST: RELATIONSHIPS WITH NULL HANDLING
+-- =====================================================
+{% test relationships_where_not_null(model, column_name, to, field) %}
+    with parent as (
+        select {{ field }} as id
+        from {{ to }}
+    ),
+    child as (
+        select {{ column_name }} as id
+        from {{ model }}
+        where {{ column_name }} is not null
+    )
+    select 
+        child.id
+    from child
+    left join parent on child.id = parent.id
+    where parent.id is null
+{% endtest %}
+
+-- =====================================================
+-- 15. GET COLUMN VALUES DYNAMIC
+-- =====================================================
+{% macro get_column_values(table_name, column_name, max_values=100, where_clause=none) %}
+    {% set query %}
+        select distinct {{ column_name }}
+        from {{ ref(table_name) }}
+        {% if where_clause %}
+        where {{ where_clause }}
+        {% endif %}
+        order by 1
+        limit {{ max_values }}
+    {% endset %}
+    
+    {% set results = run_query(query) %}
+    {% if execute %}
+        {% set values = results.columns[0].values() %}
+    {% else %}
+        {% set values = [] %}
+    {% endif %}
+    
+    {{ return(values) }}
+{% endmacro %}
+
+-- =====================================================
+-- 16. GRANT PERMISSIONS
+-- =====================================================
+{% macro grant_select(role) %}
+    {% set sql %}
+        grant select on {{ this }} to role {{ role }};
+    {% endset %}
+    
+    {% if target.name == 'prod' %}
+        {% set results = run_query(sql) %}
+        {{ log("Granted select on " ~ this ~ " to " ~ role, info=True) }}
+    {% endif %}
+{% endmacro %}
+
+-- =====================================================
+-- 17. LOGGING MACRO
+-- =====================================================
+{% macro log_info(message) %}
+    {{ log(
+        "[" ~ target.name ~ "] " ~ 
+        "[" ~ model.name ~ "] " ~ 
+        message, 
+        info=True
+    ) }}
+{% endmacro %}
+
+-- =====================================================
+-- USAGE EXAMPLES IN DBT MODELS
+-- =====================================================
+/*
+-- In your dbt model:
+
+{{ config(
+    materialized='incremental',
+    unique_key='surrogate_key',
+    on_schema_change='fail'
+) }}
+
+with source_data as (
+    select *
+    from {{ ref('raw_orders') }}
+    {{ incremental_filter('order_date', 7) }}
+),
+
+transformed as (
+    select 
+        {{ generate_surrogate_key(['customer_id', 'order_id']) }} as surrogate_key,
+        customer_id,
+        order_id,
+        {{ clean_string('customer_name') }} as customer_name_clean,
+        {{ safe_divide('revenue', 'quantity') }} as avg_price,
+        {{ running_total('revenue', partition_by='customer_id', order_by='order_date') }} as customer_ltv,
+        {{ lag_with_default('revenue', 0, 1, partition_by='customer_id') }} as previous_order_revenue,
+        order_date
+    from source_data
+)
+
+select * from transformed
+
+-- Post-hook for permissions
+{{ grant_select('analyst_role') }}
+
+*/

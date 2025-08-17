@@ -1,0 +1,316 @@
+-- Filename: data_quality_checks.sql
+-- Data Quality Check Patterns
+-- Production-ready validation queries
+
+-- =====================================================
+-- 1. COMPLETENESS CHECKS
+-- =====================================================
+
+-- Check for NULL values in critical columns
+SELECT 
+    'customer_table' as table_name,
+    'email' as column_name,
+    COUNT(*) as total_rows,
+    COUNT(email) as non_null_count,
+    COUNT(*) - COUNT(email) as null_count,
+    ROUND(100.0 * (COUNT(*) - COUNT(email)) / COUNT(*), 2) as null_percentage
+FROM customers
+HAVING COUNT(*) - COUNT(email) > 0;
+
+-- Generic NULL check across all columns
+WITH null_counts AS (
+    SELECT 
+        COUNT(*) as total_rows,
+        COUNT(column1) as column1_non_null,
+        COUNT(column2) as column2_non_null,
+        COUNT(column3) as column3_non_null
+    FROM target_table
+)
+SELECT 
+    'column1' as column_name,
+    total_rows - column1_non_null as nulls,
+    ROUND(100.0 * (total_rows - column1_non_null) / total_rows, 2) as null_pct
+FROM null_counts
+UNION ALL
+SELECT 
+    'column2',
+    total_rows - column2_non_null,
+    ROUND(100.0 * (total_rows - column2_non_null) / total_rows, 2)
+FROM null_counts;
+
+-- =====================================================
+-- 2. UNIQUENESS CHECKS
+-- =====================================================
+
+-- Find duplicate records
+WITH duplicates AS (
+    SELECT 
+        customer_id,
+        email,
+        COUNT(*) as duplicate_count
+    FROM customers
+    GROUP BY customer_id, email
+    HAVING COUNT(*) > 1
+)
+SELECT 
+    COUNT(*) as duplicate_groups,
+    SUM(duplicate_count) as total_duplicate_records,
+    SUM(duplicate_count - 1) as records_to_remove
+FROM duplicates;
+
+-- Check primary key uniqueness
+SELECT 
+    CASE 
+        WHEN COUNT(*) = COUNT(DISTINCT id) THEN 'PASS: Primary key is unique'
+        ELSE CONCAT('FAIL: ', COUNT(*) - COUNT(DISTINCT id), ' duplicate keys found')
+    END as uniqueness_check
+FROM target_table;
+
+-- =====================================================
+-- 3. REFERENTIAL INTEGRITY
+-- =====================================================
+
+-- Find orphaned records
+SELECT 
+    'orders' as child_table,
+    'customers' as parent_table,
+    COUNT(*) as orphaned_records
+FROM orders o
+WHERE NOT EXISTS (
+    SELECT 1 FROM customers c 
+    WHERE c.customer_id = o.customer_id
+);
+
+-- Check foreign key relationships
+WITH fk_check AS (
+    SELECT 
+        o.order_id,
+        o.customer_id,
+        CASE WHEN c.customer_id IS NULL THEN 1 ELSE 0 END as is_orphaned
+    FROM orders o
+    LEFT JOIN customers c ON o.customer_id = c.customer_id
+)
+SELECT 
+    COUNT(*) as total_orders,
+    SUM(is_orphaned) as orphaned_orders,
+    ROUND(100.0 * SUM(is_orphaned) / COUNT(*), 2) as orphaned_percentage
+FROM fk_check;
+
+-- =====================================================
+-- 4. VALIDITY CHECKS
+-- =====================================================
+
+-- Email format validation
+SELECT 
+    email,
+    CASE 
+        WHEN email NOT LIKE '%@%.%' THEN 'Invalid format'
+        WHEN email LIKE '%@%@%' THEN 'Multiple @ symbols'
+        WHEN email LIKE '.%' THEN 'Starts with period'
+        WHEN email LIKE '%.' THEN 'Ends with period'
+        WHEN email NOT REGEXP '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$' THEN 'Invalid pattern'
+        ELSE 'Valid'
+    END as validation_result
+FROM customers
+WHERE email IS NOT NULL;
+
+-- Date range validation
+SELECT 
+    'order_date' as field,
+    MIN(order_date) as min_date,
+    MAX(order_date) as max_date,
+    COUNT(CASE WHEN order_date > CURRENT_DATE THEN 1 END) as future_dates,
+    COUNT(CASE WHEN order_date < '2000-01-01' THEN 1 END) as suspicious_old_dates
+FROM orders;
+
+-- Numeric range validation
+SELECT 
+    'age' as field,
+    COUNT(CASE WHEN age < 0 THEN 1 END) as negative_values,
+    COUNT(CASE WHEN age > 120 THEN 1 END) as unrealistic_high,
+    COUNT(CASE WHEN age BETWEEN 0 AND 120 THEN 1 END) as valid_range,
+    MIN(age) as min_value,
+    MAX(age) as max_value,
+    AVG(age) as avg_value,
+    PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY age) as median_value
+FROM users;
+
+-- =====================================================
+-- 5. CONSISTENCY CHECKS
+-- =====================================================
+
+-- Cross-field validation
+SELECT 
+    order_id,
+    quantity,
+    unit_price,
+    total_amount,
+    quantity * unit_price as calculated_total,
+    ABS(total_amount - (quantity * unit_price)) as difference
+FROM order_items
+WHERE ABS(total_amount - (quantity * unit_price)) > 0.01;
+
+-- Status transition validation
+WITH status_changes AS (
+    SELECT 
+        order_id,
+        status,
+        LAG(status) OVER (PARTITION BY order_id ORDER BY updated_at) as previous_status,
+        updated_at
+    FROM order_history
+)
+SELECT 
+    order_id,
+    previous_status,
+    status as current_status,
+    updated_at,
+    'Invalid transition' as issue
+FROM status_changes
+WHERE 
+    (previous_status = 'shipped' AND status = 'pending') OR
+    (previous_status = 'delivered' AND status IN ('pending', 'processing', 'shipped')) OR
+    (previous_status = 'cancelled' AND status != 'cancelled');
+
+-- =====================================================
+-- 6. TIMELINESS CHECKS
+-- =====================================================
+
+-- Data freshness check
+SELECT 
+    table_name,
+    MAX(updated_at) as last_update,
+    CURRENT_TIMESTAMP - MAX(updated_at) as time_since_update,
+    CASE 
+        WHEN CURRENT_TIMESTAMP - MAX(updated_at) > INTERVAL '1 day' THEN 'STALE'
+        ELSE 'FRESH'
+    END as freshness_status
+FROM (
+    SELECT 'customers' as table_name, MAX(updated_at) as updated_at FROM customers
+    UNION ALL
+    SELECT 'orders', MAX(updated_at) FROM orders
+    UNION ALL
+    SELECT 'products', MAX(updated_at) FROM products
+) t
+GROUP BY table_name;
+
+-- =====================================================
+-- 7. OUTLIER DETECTION
+-- =====================================================
+
+-- Statistical outliers using z-score
+WITH stats AS (
+    SELECT 
+        AVG(amount) as mean_amount,
+        STDDEV(amount) as stddev_amount
+    FROM transactions
+),
+z_scores AS (
+    SELECT 
+        transaction_id,
+        amount,
+        (amount - mean_amount) / NULLIF(stddev_amount, 0) as z_score
+    FROM transactions, stats
+)
+SELECT 
+    transaction_id,
+    amount,
+    z_score,
+    CASE 
+        WHEN ABS(z_score) > 3 THEN 'Extreme outlier'
+        WHEN ABS(z_score) > 2 THEN 'Moderate outlier'
+        ELSE 'Normal'
+    END as outlier_status
+FROM z_scores
+WHERE ABS(z_score) > 2;
+
+-- Interquartile range (IQR) method
+WITH quartiles AS (
+    SELECT 
+        PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY amount) as q1,
+        PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY amount) as q3
+    FROM transactions
+),
+iqr_calc AS (
+    SELECT 
+        q1,
+        q3,
+        q3 - q1 as iqr,
+        q1 - 1.5 * (q3 - q1) as lower_bound,
+        q3 + 1.5 * (q3 - q1) as upper_bound
+    FROM quartiles
+)
+SELECT 
+    t.transaction_id,
+    t.amount,
+    CASE 
+        WHEN t.amount < i.lower_bound THEN 'Lower outlier'
+        WHEN t.amount > i.upper_bound THEN 'Upper outlier'
+        ELSE 'Normal'
+    END as outlier_status
+FROM transactions t, iqr_calc i
+WHERE t.amount < i.lower_bound OR t.amount > i.upper_bound;
+
+-- =====================================================
+-- 8. PATTERN DETECTION
+-- =====================================================
+
+-- Detect suspicious patterns (e.g., round numbers)
+SELECT 
+    COUNT(*) as total_transactions,
+    COUNT(CASE WHEN amount % 100 = 0 THEN 1 END) as round_hundreds,
+    COUNT(CASE WHEN amount % 1000 = 0 THEN 1 END) as round_thousands,
+    ROUND(100.0 * COUNT(CASE WHEN amount % 100 = 0 THEN 1 END) / COUNT(*), 2) as pct_round_hundreds
+FROM transactions
+WHERE amount > 0;
+
+-- =====================================================
+-- 9. COMPREHENSIVE DATA QUALITY REPORT
+-- =====================================================
+
+CREATE OR REPLACE VIEW data_quality_report AS
+WITH quality_metrics AS (
+    SELECT 
+        'completeness' as metric_type,
+        'customers' as table_name,
+        ROUND(100.0 * COUNT(email) / COUNT(*), 2) as score
+    FROM customers
+    
+    UNION ALL
+    
+    SELECT 
+        'uniqueness',
+        'customers',
+        ROUND(100.0 * COUNT(DISTINCT customer_id) / COUNT(*), 2)
+    FROM customers
+    
+    UNION ALL
+    
+    SELECT 
+        'validity',
+        'customers',
+        ROUND(100.0 * COUNT(CASE WHEN email LIKE '%@%.%' THEN 1 END) / NULLIF(COUNT(email), 0), 2)
+    FROM customers
+    
+    UNION ALL
+    
+    SELECT 
+        'referential_integrity',
+        'orders',
+        ROUND(100.0 * COUNT(CASE WHEN EXISTS (SELECT 1 FROM customers c WHERE c.customer_id = orders.customer_id) THEN 1 END) / COUNT(*), 2)
+    FROM orders
+)
+SELECT 
+    table_name,
+    metric_type,
+    score,
+    CASE 
+        WHEN score >= 99 THEN 'Excellent'
+        WHEN score >= 95 THEN 'Good'
+        WHEN score >= 90 THEN 'Fair'
+        ELSE 'Poor'
+    END as quality_rating,
+    CURRENT_TIMESTAMP as checked_at
+FROM quality_metrics
+ORDER BY table_name, metric_type;
+
+-- Usage: SELECT * FROM data_quality_report;
