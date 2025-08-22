@@ -52,7 +52,7 @@ def process_folder(input_folder, output_folder, chunk_size=375):
     output_path.mkdir(parents=True, exist_ok=True)
     
     # Find all markdown files
-    md_files = list(input_path.glob("*.md"))
+    md_files = list(input_path.glob("*.txt"))
     
     if not md_files:
         print(f"No markdown files found in {input_folder}")
