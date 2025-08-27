@@ -1,0 +1,375 @@
+[LINE_0001] NINE 
+[LINE_0002] 
+[LINE_0003] 
+[LINE_0004] 
+[LINE_0005] Vianne closed the bedroom door and leaned against it, trying to calm her nerves. She could hear Isabelle 
+[LINE_0006] pacing in the room behind her, moving with an anger that made the floorboards tremble. How long did 
+[LINE_0007] Vianne stand there alone, trembling, trying to get her nerves under control? It felt like hours passed 
+[LINE_0008] while she struggled with her fear. 
+[LINE_0009] 
+[LINE_0010] In ordinary times, she would have found the strength to talk rationally with her sister, to say some of 
+[LINE_0011] the things that had long been unspoken. Vianne would have told Isabelle how sorry she was for the way 
+[LINE_0012] she’d treated her as a little girl. Maybe she could have made Isabelle understand. 
+[LINE_0013] 
+[LINE_0014] Vianne had been so helpless after Maman’s death. When Papa had sent them away, to live in this 
+[LINE_0015] small town, beneath the cold, stern eyes of a woman who had shown the girls no love, Vianne had . . . 
+[LINE_0016] wilted. 
+[LINE_0017] 
+[LINE_0018] In another time, she might have shared with Isabelle what they had in common, how undone she’d 
+[LINE_0019] been by Maman’s death, how Papa’s rejection had broken her heart. Or how he treated her at sixteen 
+[LINE_0020] when she’d come to him, pregnant and in love ... and been slapped across the face and called a 
+[LINE_0021] disgrace. How Antoine had pushed Papa back, hard, and said, I’m going to marry her. 
+[LINE_0022] 
+[LINE_0023] And Papa’s answer: Fine, she’s all yours. You can have the house. But you’ll take her squalling 
+[LINE_0024] sister, too. 
+[LINE_0025] 
+[LINE_0026] Vianne closed her eyes. She hated to think about all of that; for years, she’d practically forgotten it. 
+[LINE_0027] Now, how could she push it aside? She had done to Isabelle exactly what their father had done to them. 
+[LINE_0028] It was the greatest regret of Vianne’s life. 
+[LINE_0029] 
+[LINE_0030] But this was not the time to repair that damage. 
+[LINE_0031] 
+[LINE_0032] Now she had to do everything in her power to keep Sophie safe until Antoine came home. Isabelle 
+[LINE_0033] would simply have to be made to understand that. 
+[LINE_0034] 
+[LINE_0035] With a sigh, she went downstairs to check on supper. 
+[LINE_0036] 
+[LINE_0037] In the kitchen, she found her potato soup simmering a bit too briskly, so she uncovered it and 
+[LINE_0038] lowered the heat. 
+[LINE_0039] 
+[LINE_0040] “Madame? Are you sanguine?” 
+[LINE_0041] 
+[LINE_0042] She flinched at the sound of his voice. When had he come in here? She took a deep breath and 
+[LINE_0043] patted her hair. It was not the word he meant. Really, his French was terrible. 
+[LINE_0044] 
+[LINE_0045] 
+[LINE_0046] 
+[LINE_0047] “That smells delicious,” he said, coming up behind her. 
+[LINE_0048] 
+[LINE_0049] She set the wooden spoon down on the rest beside the stove. 
+[LINE_0050] 
+[LINE_0051] “May I see what you are making?” 
+[LINE_0052] 
+[LINE_0053] “Of course,” she said, both of them pretending her wishes mattered. “It’s just potato soup.” 
+[LINE_0054] 
+[LINE_0055] “My wife, alas, is not much of a cook.” 
+[LINE_0056] 
+[LINE_0057] He was right beside her now, taking Antoine’s place, a hungry man peering down at a cooking 
+[LINE_0058] dinner. 
+[LINE_0059] 
+[LINE_0060] “You are married,” she said, reassured by it, although she couldn’t say why. 
+[LINE_0061] 
+[LINE_0062] “And a baby soon to be born. We are planning to call him Wilhelm, although I will not be there 
+[LINE_0063] when he is born, and of course, such decisions must inevitably be his mother’s.” 
+[LINE_0064] 
+[LINE_0065] It was such a . . . human thing to say. She found herself turning slightly to look at him. He was her 
+[LINE_0066] height, almost exactly, and it unnerved her; looking directly into his eyes made her feel vulnerable. 
+[LINE_0067] 
+[LINE_0068] “God willing, we will all be home soon,” he said. 
+[LINE_0069] 
+[LINE_0070] He wants this over, too, she thought with relief. 
+[LINE_0071] 
+[LINE_0072] “It’s suppertime, Herr Captain. Will you be joining us?” 
+[LINE_0073] 
+[LINE_0074] “It would be an honor, Madame. Although you will be pleased to hear that most evenings I will be 
+[LINE_0075] working late and enjoying my supper with the officers. I shall also often be out on campaigns. You shall 
+[LINE_0076] sometimes hardly notice my presence.” 
+[LINE_0077] 
+[LINE_0078] Vianne left him in the kitchen and carried silverware into the dining room, where she almost ran into 
+[LINE_0079] Isabelle. 
+[LINE_0080] 
+[LINE_0081] “You shouldn’t be alone with him,” Isabelle hissed. 
+[LINE_0082] 
+[LINE_0083] The captain came into the room. “You cannot think I would accept your hospitality and then do 
+[LINE_0084] harm? Consider this night. I have brought you wine. A lovely Sancerre.” 
+[LINE_0085] 
+[LINE_0086] “You brought us wine,” Isabelle said. 
+[LINE_0087] 
+[LINE_0088] “As any good guest would,” he answered. 
+[LINE_0089] 
+[LINE_0090] Vianne thought, oh, no, but there was nothing she could do to stop Isabelle from speaking. 
+[LINE_0091] 
+[LINE_0092] “You know about Tours, Herr Captain?” Isabelle asked. “How your Stukas fired on innocent women 
+[LINE_0093] and children who were fleeing for their lives and dropped bombs on us?” 
+[LINE_0094] 
+[LINE_0095] “Us?” he said, his expression turning thoughtful. 
+[LINE_0096] 
+[LINE_0097] “I was there. You see the marks on my face.” 
+[LINE_0098] 
+[LINE_0099] “Ah,” he said. “That must have been most unpleasant.” 
+[LINE_0100] 
+[LINE_0101] Isabelle went very still. The green of her eyes seemed to blaze against the red marks and bruises on 
+[LINE_0102] her pale skin. “Unpleasant.” 
+[LINE_0103] 
+[LINE_0104] “Think about Sophie,” Vianne reminded her evenly. 
+[LINE_0105] 
+[LINE_0106] Isabelle gritted her teeth and then turned it into a fake smile. “Here, Captain Beck, let me show you 
+[LINE_0107] to your seat.” 
+[LINE_0108] 
+[LINE_0109] Vianne took her first decent breath in at least an hour. Then, slowly, she headed into the kitchen to 
+[LINE_0110] dish up supper. 
+[LINE_0111] 
+[LINE_0112] 
+[LINE_0113] 
+[LINE_0114] 
+[LINE_0115] Vianne served supper in silence. The atmosphere at the table was as heavy as coal soot, settling on all of 
+[LINE_0116] them. It frayed Vianne ’s nerves to the breaking point. Outside, the sun began to set; pink light filled the 
+[LINE_0117] windows. 
+[LINE_0118] 
+[LINE_0119] “Would you care for wine, Mademoiselle?” Beck said to Isabelle, pouring himself a large glass of 
+[LINE_0120] the Sancerre he had brought to the table. 
+[LINE_0121] 
+[LINE_0122] “If ordinary French families can’t afford to drink it, Herr Captain, how can I enjoy it?” 
+[LINE_0123] 
+[LINE_0124] “A sip perhaps would not be — ” 
+[LINE_0125] 
+[LINE_0126] Isabelle finished her soup and got to her feet. “Excuse me. I am feeling sick to my stomach.” 
+[LINE_0127] 
+[LINE_0128] “Me, too,” Sophie said. She got to her feet and followed her aunt out of the room like a puppy 
+[LINE_0129] follows the lead dog, with her head down. 
+[LINE_0130] 
+[LINE_0131] Vianne sat perfectly still, her soup spoon held above her bowl. They were leaving her alone with 
+[LINE_0132] him. 
+[LINE_0133] 
+[LINE_0134] Her breathing was a flutter in her chest. She carefully set down her spoon and dabbed at her mouth 
+[LINE_0135] with her serviette. “Forgive my sister, Herr Captain. She is impetuous and willful.” 
+[LINE_0136] 
+[LINE_0137] “My oldest daughter is such a girl. We expect nothing but trouble when she gets a little older.” 
+[LINE_0138] 
+[LINE_0139] That surprised Vianne so much that she turned. “You have a daughter?” 
+[LINE_0140] 
+[LINE_0141] “Gisela,” he said, his mouth curving into a smile. “She is six and already her mother is unable to get 
+[LINE_0142] her to reliably do the simplest of tasks — like brush her teeth. Our Gisela would rather build a fort than 
+[LINE_0143] read a book.” He sighed, smiling. 
+[LINE_0144] 
+[LINE_0145] It flustemd her, knowing this about him. She tried to think of a response, but her nerves were too 
+[LINE_0146] overwroughuShe picked up her spoon and began eating again. 
+[LINE_0147] 
+[LINE_0148] The meal seemed to go on forever, in a silence that was her undoing. The moment he finished, 
+[LINE_0149] saying, “A lovely meal. My thanks,” she got to her feet and began clearing the table. 
+[LINE_0150] 
+[LINE_0151] Thankfully, he didn’t follow her into the kitchen. He remained in the dining room, at the table by 
+[LINE_0152] himself, drinking the wine he’d brought, which she knew would have tasted of autumn — pears and 
+[LINE_0153] apples. 
+[LINE_0154] 
+[LINE_0155] By the time she’d washed and dried the dishes, and put them away, night had fallen. She left the 
+[LINE_0156] house, stepping into the starlit front yard for a moment’s peace. On the stone garden wall, a shadow 
+[LINE_0157] moved; it was a cat perhaps. 
+[LINE_0158] 
+[LINE_0159] Behind her, she heard a footfall, then a match strike and the smell of sulfur. 
+[LINE_0160] 
+[LINE_0161] She took a quiet step backward, wanting to melt into the shadows. If she could move quietly 
+[LINE_0162] enough, perhaps she could return by the side door without alerting him to her presence. She stepped on 
+[LINE_0163] a twig, heard it snap beneath her heel, and she froze. 
+[LINE_0164] 
+[LINE_0165] He stepped out from the orchard. 
+[LINE_0166] 
+[LINE_0167] “Madame,” he said. “So you love the starlight also. I am sorry to intrude upon you.” 
+[LINE_0168] 
+[LINE_0169] She was afraid to move. 
+[LINE_0170] 
+[LINE_0171] He closed the distance between them, taking up a place beside her as if he belonged there, looking 
+[LINE_0172] 
+[LINE_0173] 
+[LINE_0174] 
+[LINE_0175] out across her orchard. 
+[LINE_0176] 
+[LINE_0177] “You would never know there is a war on out here,” he said. 
+[LINE_0178] 
+[LINE_0179] Vianne thought he sounded sad and it reminded her that they were alike in a way, both of them far 
+[LINE_0180] away from the people they loved. “Your . . . superior ... he said that all prisoners of war will remain in 
+[LINE_0181] Germany. What does this mean? What of our soldiers? Surely you did not capture all of them.” 
+[LINE_0182] 
+[LINE_0183] “I do not know, Madame. Some will return. Many will not.” 
+[LINE_0184] 
+[LINE_0185] “Well. Isn’t this a lovely little moment between new friends,” Isabelle said. 
+[LINE_0186] 
+[LINE_0187] Vianne flinched, horrified that she had been caught standing out here with a German, the enemy, a 
+[LINE_0188] man. 
+[LINE_0189] 
+[LINE_0190] Isabelle stood in the moonlight, wearing a caramel-colored suit; she held her valise in one hand and 
+[LINE_0191] Vianne ’s best Deauville in the other. 
+[LINE_0192] 
+[LINE_0193] “You have my hat,” Vianne said. 
+[LINE_0194] 
+[LINE_0195] “I may have to wait for a train. My face is still tender from the Nazi attack.” She was smiling at 
+[LINE_0196] Beck as she said this. It wasn’t really a smile. 
+[LINE_0197] 
+[LINE_0198] Beck inclined his head in a curt nod. “You have sisterly things to discuss, obviously. I will take my 
+[LINE_0199] leave.” With a brisk, polite nod, he returned to the house, closing the door behind him. 
+[LINE_0200] 
+[LINE_0201] “I can’t stay here,” Isabelle said. 
+[LINE_0202] 
+[LINE_0203] “Of course you can.” 
+[LINE_0204] 
+[LINE_0205] “I have no interest in making friends with the enemy, V.” 
+[LINE_0206] 
+[LINE_0207] “Damn it, Isabelle. Don’t you dare — ” 
+[LINE_0208] 
+[LINE_0209] Isabelle stepped closer. “I’ll put you and Sophie at risk. Sooner or later. You know I will. You told 
+[LINE_0210] me I needed to protect Sophie. This is the only way I can do it. I feel like I’ll explode if I stay, V.” 
+[LINE_0211] 
+[LINE_0212] Vianne ’s anger dissolved; without it, she felt inexpressibly tired. This essential difference had 
+[LINE_0213] always been between them. Vianne the rule follower and Isabelle the rebel. Even in girlhood, in grief, 
+[LINE_0214] they had expressed their emotions differently. Vianne had gone silent after Maman’s death, tried to 
+[LINE_0215] pretend that Papa’s abandonment didn’t wound her, while Isabelle had thrown tantrums and run away 
+[LINE_0216] and demanded attention. Maman had sworn that one day they would be the best of friends. Never had 
+[LINE_0217] this prediction seemed less likely. 
+[LINE_0218] 
+[LINE_0219] In this, right now, Isabelle was right. Vianne would be constantly afraid of what her sister would say 
+[LINE_0220] or do around the captain, and truthfully, Vianne hadn’t the strength for it. 
+[LINE_0221] 
+[LINE_0222] “How will you go? And where?” 
+[LINE_0223] 
+[LINE_0224] “Train. To Paris. I’ll telegram you when I arrive safely.” 
+[LINE_0225] 
+[LINE_0226] “Be careful. Don’t do anything foolish.” 
+[LINE_0227] 
+[LINE_0228] “Me? You know better than that.” 
+[LINE_0229] 
+[LINE_0230] Vianne pulled Isabelle into a fierce embrace and then let her go. 
+[LINE_0231] 
+[LINE_0232] * * * 
+[LINE_0233] 
+[LINE_0234] 
+[LINE_0235] 
+[LINE_0236] The road to town was so dark Isabelle couldn’t see her own feet. It was preternaturally quiet, as 
+[LINE_0237] 
+[LINE_0238] 
+[LINE_0239] 
+[LINE_0240] 
+[LINE_0241] suspenseful as a held breath, until she came to the airfield. There, she heard boots marching on hard- 
+[LINE_0242] packed dirt, motorcycles and trucks rolling alongside the skein of barbed wire that now protected the 
+[LINE_0243] ammunitions dump. 
+[LINE_0244] 
+[LINE_0245] A lorry appeared out of nowhere, its headlamps off, thundering up the road; she lurched out of its 
+[LINE_0246] way, stumbling into the ditch. 
+[LINE_0247] 
+[LINE_0248] In town, it was no easier to navigate with the shops closed and the streetlamps off and the windows 
+[LINE_0249] blacked out. The silence was eerie and unnerving. Her footsteps seemed too loud. With every step, she 
+[LINE_0250] was aware that a curfew was in effect and she was violating it. 
+[LINE_0251] 
+[LINE_0252] She ducked into one of the alleys, feeling her way along the rough sidewalk, her fingertips trailing 
+[LINE_0253] along the storefronts for guidance. Whenever she heard voices, she froze, shrinking into the shadows 
+[LINE_0254] until silence returned. It seemed to take forever to reach her destination: the train station on the edge of 
+[LINE_0255] town. 
+[LINE_0256] 
+[LINE_0257] “Halt!” 
+[LINE_0258] 
+[LINE_0259] Isabelle heard the word at the same time a floodlight sprayed white light over her. She was a shadow 
+[LINE_0260] hunched beneath it. 
+[LINE_0261] 
+[LINE_0262] A German sentry approached her, his rifle held in his arms. “You are just a girl,” he said, drawing 
+[LINE_0263] close. “You know about the curfew, ja?” he demanded. 
+[LINE_0264] 
+[LINE_0265] She rose slowly, facing him with a courage she didn’t feel. “I know we aren’t allowed to be out this 
+[LINE_0266] late. It is an emergency, though. I must go to Paris. My father is ill.” 
+[LINE_0267] 
+[LINE_0268] “Where is your Ausweis ?” 
+[LINE_0269] 
+[LINE_0270] “I don’t have one.” 
+[LINE_0271] 
+[LINE_0272] He eased the rifle off his shoulder and into his hands. “No travel without an Ausweis.” 
+[LINE_0273] 
+[LINE_0274] “But—” 
+[LINE_0275] 
+[LINE_0276] “Go home, girl, before you get hurt.” 
+[LINE_0277] 
+[LINE_0278] “But—” 
+[LINE_0279] 
+[LINE_0280] “Now, before I decide not to ignore you.” 
+[LINE_0281] 
+[LINE_0282] Inside, Isabelle was screaming in frustration. It took considerable effort to walk away from the 
+[LINE_0283] sentry without saying anything. 
+[LINE_0284] 
+[LINE_0285] On the way home, she didn’t even keep to the shadows. She flaunted her disregard of the curfew, 
+[LINE_0286] daring them to stop her again. A part of her wanted to get caught so she could let loose the string of 
+[LINE_0287] invectives screaming inside her head. 
+[LINE_0288] 
+[LINE_0289] This could not be her life. Trapped in a house with a Nazi in a town that had given up without a 
+[LINE_0290] whimper of protest. Vianne was not alone in her desire to pretend that France had neither surrendered 
+[LINE_0291] nor been conquered. In town, the shopkeepers and bistro owners smiled at the Germans and poured 
+[LINE_0292] them champagne and sold them the best cuts of meat. The villagers, peasants mostly, shrugged and went 
+[LINE_0293] on with life; oh, they muttered disapprovingly and shook their heads and gave out wrong directions 
+[LINE_0294] when asked, but beyond those small rebellions, there was nothing. No wonder the German soldiers were 
+[LINE_0295] swollen with arrogance. They had taken over this town without a fight. Hell, they had done the same 
+[LINE_0296] 
+[LINE_0297] 
+[LINE_0298] 
+[LINE_0299] 
+[LINE_0300] thing to all of France. 
+[LINE_0301] 
+[LINE_0302] But Isabelle could never forget what she’d seen in the field near Tours. 
+[LINE_0303] 
+[LINE_0304] At home, when she was upstairs again, in the bedroom that had been hers as a child, she slammed 
+[LINE_0305] the door shut behind her. A few moments later, she smelled cigarette smoke and it made her so angry 
+[LINE_0306] she wanted to scream. 
+[LINE_0307] 
+[LINE_0308] He was down there, smoking a cigarette. Captain Beck, with his cut-stone face and fake smile, could 
+[LINE_0309] toss them all out of this house at will. For any reason or no reason at all. Her frustration curdled into an 
+[LINE_0310] anger that was like nothing she’d ever known. She felt as if her insides were a bomb that needed to go 
+[LINE_0311] off. One wrong move — or word — and she might explode. 
+[LINE_0312] 
+[LINE_0313] She marched over to Vianne’s bedroom and opened the door. “You need a pass to leave town,” she 
+[LINE_0314] said, her anger expanding. “The bastards won’t let us take a train to see family.” 
+[LINE_0315] 
+[LINE_0316] From the darkness, Vianne said, “So that’s that.” 
+[LINE_0317] 
+[LINE_0318] Isabelle didn’t know if it was relief or disappointment she heard in her sister’s voice. 
+[LINE_0319] 
+[LINE_0320] “Tomorrow morning you will go to town for me. You will stand in the queues while I am at school 
+[LINE_0321] and get what you can.” 
+[LINE_0322] 
+[LINE_0323] “But—” 
+[LINE_0324] 
+[LINE_0325] “No huts, Isabelle. You are here now and staying. It’s time you pulled your weight. I need to be able 
+[LINE_0326] to count on you.” 
+[LINE_0327] 
+[LINE_0328] 
+[LINE_0329] 
+[LINE_0330] * * * 
+[LINE_0331] 
+[LINE_0332] For the next week, Isabelle tried to be on her best behavior, but it was impossible with that man living 
+[LINE_0333] under the same roof. Night after night she didn’t sleep. She lay in her bed, alone in the dark, imagining 
+[LINE_0334] the worst. 
+[LINE_0335] 
+[LINE_0336] This morning, well before dawn, she gave up the pretense and got out of bed. She washed her face 
+[LINE_0337] and dressed in a plain cotton day dress, wrapping a scarf around her butchered hair as she went 
+[LINE_0338] downstairs. 
+[LINE_0339] 
+[LINE_0340] Vianne sat on the divan, knitting, an oil lamp lit beside her. In the ring of lamplight that separated 
+[LINE_0341] her from the darkness, Vianne looked pale and sickly; she obviously hadn’t slept much this week, either. 
+[LINE_0342] She looked up at Isabelle in surprise. “You’re up early.” 
+[LINE_0343] 
+[LINE_0344] “I have a long day of standing in lines ahead of me. Might as well get started,” Isabelle said. “The 
+[LINE_0345] first in line get the best food.” 
+[LINE_0346] 
+[LINE_0347] Vianne put her knitting aside and stood. Smoothing her dress (another reminder that he was in the 
+[LINE_0348] house: neither of them came downstairs in nightdresses), she went into the kitchen and then returned 
+[LINE_0349] with ration cards. “It’s meat today.” 
+[LINE_0350] 
+[LINE_0351] Isabelle grabbed the ration cards from Vianne and left the house, plunging into the darkness of a 
+[LINE_0352] blacked-out world. 
+[LINE_0353] 
+[LINE_0354] Dawn rose as she walked, illuminating a world within a world — one that looked like Carriveau but 
+[LINE_0355] felt entirely foreign. As she passed the airfield, a small green car with the letters pol on the rear roared 
+[LINE_0356] 
+[LINE_0357] 
+[LINE_0358] 
+[LINE_0359] 
+[LINE_0360] past her. 
+[LINE_0361] 
+[LINE_0362] Gestapo. 
+[LINE_0363] 
+[LINE_0364] The airfield was already a hive of activity. She saw four guards out front — two at the newly 
+[LINE_0365] constructed gated entrance and two at the building’s double doors. Nazi flags snapped in the early- 
+[LINE_0366] morning breeze. Several aeroplanes stood ready for takeoff — to drop bombs on England and across 
+[LINE_0367] Europe. Guards marched in front of red signs that read: verboten. keep out under penalty of death. 
+[LINE_0368] 
+[LINE_0369] She kept walking. 
+[LINE_0370] 
+[LINE_0371] There were already four women queued up in front of the butcher’s shop when she arrived. She took 
+[LINE_0372] her place at the back of the line. 
+[LINE_0373] 
+[LINE_0374] That was when she saw a piece of chalk lying in the road, tucked in against the curb. She knew 
+[LINE_0375] instantly how she could use it. 

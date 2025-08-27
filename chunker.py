@@ -76,8 +76,10 @@ def process_folder(input_folder, output_folder, chunk_size=375):
 # Main execution
 if __name__ == "__main__":
     # Configure paths
-    INPUT_FOLDER = "citizens/Aitana/banks"  # Banks folder
-    OUTPUT_FOLDER = "citizens/Aitana/banks/chunked"  # Output subfolder
+    #INPUT_FOLDER = "citizens/Aitana/banks"  # Banks folder
+    #OUTPUT_FOLDER = "citizens/Aitana/banks/chunked"  # Output subfolder
+    INPUT_FOLDER = "C:/Users/rayse/Dropbox/Projects/GitHub/Digiland/The Luminary Archives - Digiland Library/BookStore"  # Banks folder
+    OUTPUT_FOLDER = "C:/Users/rayse/Dropbox/Projects/GitHub/Digiland/The Luminary Archives - Digiland Library/BookStore/chunked"  # Output subfolder    
     CHUNK_SIZE = 375  # Lines per chunk (safely under 400 limit)
     
     # Run the chunker
