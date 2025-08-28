@@ -80,7 +80,8 @@ if __name__ == "__main__":
     OUTPUT_FOLDER = "citizens/Aitana/banks/chunked"  # Output subfolder
     #INPUT_FOLDER = "C:/Users/rayse/Dropbox/Projects/GitHub/Digiland/The Luminary Archives - Digiland Library/BookStore"  # Banks folder
     #OUTPUT_FOLDER = "C:/Users/rayse/Dropbox/Projects/GitHub/Digiland/The Luminary Archives - Digiland Library/BookStore/chunked"  # Output subfolder    
-    CHUNK_SIZE = 375  # Lines per chunk (safely under 400 limit)
+    #CHUNK_SIZE = 375  # Lines per chunk (safely under 400 limit)
+    CHUNK_SIZE = 3000
     
     # Run the chunker
     process_folder(INPUT_FOLDER, OUTPUT_FOLDER, CHUNK_SIZE)
