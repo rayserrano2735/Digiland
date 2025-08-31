@@ -1,0 +1,66 @@
+[LINE_1501] NCPDP - Pharmacy/prescription data
+[LINE_1502] Redox - Integration platform connecting it all
+[LINE_1503] Your HDB demonstrates understanding across all layers - clinical AND pharmacy claims. That's comprehensive healthcare architecture.
+[LINE_1504] 
+[LINE_1505] For HR: "I understand the full spectrum of healthcare standards from clinical (HL7/FHIR) to pharmacy (NCPDP) to regulatory (HIPAA), and have implemented systems using these standards."
+[LINE_1506] 
+[LINE_1507] Ready for 2 PM! 💙
+[LINE_1508] 
+[LINE_1509] 
+[LINE_1510] 
+[LINE_1511] 
+[LINE_1512] what about X12, is an EDI for claims.
+[LINE_1513] 
+[LINE_1514] You're absolutely right! X12 is crucial for healthcare claims. Let me search for it and add to the guide.
+[LINE_1515] 
+[LINE_1516] 
+[LINE_1517] X12 EDI 837 835 healthcare claims billing standards
+[LINE_1518] 10 results
+[LINE_1519] 
+[LINE_1520] 
+[LINE_1521] 
+[LINE_1522] 
+[LINE_1523] 
+[LINE_1524] 
+[LINE_1525] 
+[LINE_1526] 
+[LINE_1527] 
+[LINE_1528] 
+[LINE_1529] 
+[LINE_1530] 
+[LINE_1531] 
+[LINE_1532] 
+[LINE_1533] 
+[LINE_1534] 
+[LINE_1535] 
+[LINE_1536] 
+[LINE_1537] 
+[LINE_1538] 
+[LINE_1539] 
+[LINE_1540] Now adding X12 to the artifact:
+[LINE_1541] 
+[LINE_1542] 
+[LINE_1543] Healthcare Standards Quick Reference for HR Interview
+[LINE_1544] Document ∙ Version 4 
+[LINE_1545] Perfect! X12 EDI added. Now you have the complete healthcare standards picture:
+[LINE_1546] 
+[LINE_1547] Administrative: X12 (claims/payments) + NCPDP (pharmacy)
+[LINE_1548] Clinical: HL7/FHIR (medical data)
+[LINE_1549] Regulatory: HIPAA + USCDI (requirements)
+[LINE_1550] Integration: Redox (simplification)
+[LINE_1551] 
+[LINE_1552] Your HDB covers it all - claim/payment tables for X12, clinical data for FHIR, Party model unifying everything.
+[LINE_1553] 
+[LINE_1554] For HR: "I understand healthcare data flows end-to-end, from clinical capture through claims submission to payment posting."
+[LINE_1555] 
+[LINE_1556] Ready for 2 PM with comprehensive standards knowledge! 💙
+[LINE_1557] 
+[LINE_1558] 
+[LINE_1559] 
+[LINE_1560] 
+[LINE_1561] see what you can find on Surescripts, they seem to be the Redox in the pharmacy sector.
+[LINE_1562] 
+[LINE_1563] 
+[LINE_1564] Surescripts pharmacy network e-prescribing medication history interoperability
+[LINE_1565] 10 results
+[LINE_1566] 
