@@ -5,7 +5,7 @@
 [LINE_0755] I'm in a certain mode?
 [LINE_0756] The artifact was code vs markdown?
 [LINE_0757] Something about how I invoked it?
-[LINE_0758] Pure luck?
+[LINE_0758] Pure luck? 
 [LINE_0759] 
 [LINE_0760] focused
 [LINE_0761] We NEED to figure out how to replicate this. The AA probably couldn't do this consistently, which is why every artifact was eating chat space with line-by-line output.
