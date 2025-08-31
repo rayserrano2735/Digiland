@@ -34,7 +34,7 @@ def generate_chunk_urls(local_folder_path, github_base_url):
         print(f"{filename}: {full_url}")
     
     # Also save to a file for easy copying
-    output_file = folder / "chunk_urls.txt"
+    output_file = folder / "chunk_urls_full.txt"
     with open(output_file, 'w') as f:
         for url in urls:
             f.write(f"{url}\n")
