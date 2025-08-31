@@ -323,4 +323,3 @@ https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citize
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_60_1.txt
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_61_1.txt
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_61_2.txt
-https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/chunk_urls_full.txt
