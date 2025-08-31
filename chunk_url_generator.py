@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from natsort import natsorted
 
 def generate_chunk_urls(local_folder_path, github_base_url):
     """
@@ -23,7 +24,8 @@ def generate_chunk_urls(local_folder_path, github_base_url):
     folder = Path(local_folder_path)
     
     # Get all .txt files, sorted naturally
-    txt_files = sorted(folder.glob('*.txt'))
+    #txt_files = sorted(folder.glob('*.txt'))
+    txt_files = natsorted(folder.glob('*.txt'))
     
     # Generate URLs
     urls = []
