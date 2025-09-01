@@ -24,6 +24,7 @@ def generate_chunk_urls(local_folder_path, github_base_url):
     folder = Path(local_folder_path)
     
     # Get all .txt files, sorted naturally
+    #txt_files = sorted(folder.glob('*.txt'))
     txt_files = natsorted(folder.glob('*.txt'))
     
     # Generate URLs
@@ -34,24 +35,8 @@ def generate_chunk_urls(local_folder_path, github_base_url):
         urls.append(full_url)
         print(f"{filename}: {full_url}")
     
-    # Generate output filename with timestamp
-    from datetime import datetime
-    
-    base_name = "chunk_urls_full"
-    extension = ".txt"
-    
-    # Check if base file exists
-    output_file = folder / f"{base_name}{extension}"
-    if not output_file.exists():
-        # Use base name if it doesn't exist
-        pass
-    else:
-        # Use timestamp with just seconds from the current minute
-        now = datetime.now()
-        timestamp = now.strftime("%Y%m%d_%H%M_") + f"{now.second:02d}"
-        output_file = folder / f"{base_name}_{timestamp}{extension}"
-    
-    # Save to file
+    # Also save to a file for easy copying
+    output_file = folder / "chunk_urls_full.txt"
     with open(output_file, 'w') as f:
         for url in urls:
             f.write(f"{url}\n")
