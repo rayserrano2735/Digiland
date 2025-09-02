@@ -52,7 +52,7 @@ def generate_chunk_urls(local_folder_path, github_base_url):
         output_file = folder / f"{base_name}_{timestamp}{extension}"
     
     # Save to file
-    with open(output_file, 'w') as f:
+    with open(output_file, 'w', newline='\n') as f:
         for url in urls:
             f.write(f"{url}\n")
     
