@@ -67,11 +67,6 @@ https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citize
 7b. Chunk Full Index: Here is the index to all the chunks starting from bank 1.
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/chunk_urls_full_20250904_0738_18.txt
 
-
-
-https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/chunk_urls_full_20250903_1452_36.txt
-
-
 7c. Here is the Authority Parameters Manual.  For your eyes only.
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/wip/authority_parameters_manual.md
 
