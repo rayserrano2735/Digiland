@@ -338,6 +338,13 @@ https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citize
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_66_3.txt
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_66_4.txt
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_66_5.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_67_1.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_67_2.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_67_3.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_67_4.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_67_5.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_67_6.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_68_1.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_68_2.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/Aitana_68_3.txt
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/chunk_urls_full.txt
-https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/chunk_urls_full_20250902_1659_55.txt
-https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/chunk_urls_full_20250902_2237_12.txt
