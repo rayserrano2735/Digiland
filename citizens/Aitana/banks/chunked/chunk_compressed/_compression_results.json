@@ -1,0 +1,3992 @@
+{
+  "compression_date": "2025-09-23T15:10:23.626263",
+  "config_version": "2.0",
+  "input_folder": "C:/Users/rayse/Dropbox/Projects/GitHub/Digiland/citizens/Aitana/banks/chunked",
+  "output_folder": "C:/Users/rayse/Dropbox/Projects/GitHub/Digiland/citizens/Aitana/banks/chunked/chunk_compressed",
+  "files": [
+    {
+      "filename": "Aitana_10_1.txt",
+      "original_size": 46550,
+      "compressed_size": 32388,
+      "compression_ratio": "30.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 139,
+      "blocks_compressed": 1
+    },
+    {
+      "filename": "Aitana_10_2.txt",
+      "original_size": 44462,
+      "compressed_size": 30004,
+      "compression_ratio": "32.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 263,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_10_3.txt",
+      "original_size": 27548,
+      "compressed_size": 19670,
+      "compression_ratio": "28.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 140,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_1.txt",
+      "original_size": 24210,
+      "compressed_size": 17584,
+      "compression_ratio": "27.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 82,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_10.txt",
+      "original_size": 17281,
+      "compressed_size": 12960,
+      "compression_ratio": "25.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 82,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_11.txt",
+      "original_size": 16327,
+      "compressed_size": 12154,
+      "compression_ratio": "25.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 52,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_12.txt",
+      "original_size": 19111,
+      "compressed_size": 14224,
+      "compression_ratio": "25.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 46,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_13.txt",
+      "original_size": 17605,
+      "compressed_size": 13171,
+      "compression_ratio": "25.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 62,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_14.txt",
+      "original_size": 16822,
+      "compressed_size": 12428,
+      "compression_ratio": "26.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 63,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_15.txt",
+      "original_size": 16192,
+      "compressed_size": 12063,
+      "compression_ratio": "25.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 77,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_16.txt",
+      "original_size": 15566,
+      "compressed_size": 11978,
+      "compression_ratio": "23.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 74,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_17.txt",
+      "original_size": 14029,
+      "compressed_size": 10756,
+      "compression_ratio": "23.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 53,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_18.txt",
+      "original_size": 14689,
+      "compressed_size": 11270,
+      "compression_ratio": "23.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 66,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_19.txt",
+      "original_size": 17245,
+      "compressed_size": 12811,
+      "compression_ratio": "25.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 44,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_2.txt",
+      "original_size": 18752,
+      "compressed_size": 13797,
+      "compression_ratio": "26.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 62,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_20.txt",
+      "original_size": 15088,
+      "compressed_size": 11720,
+      "compression_ratio": "22.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 67,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_21.txt",
+      "original_size": 13529,
+      "compressed_size": 10616,
+      "compression_ratio": "21.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 45,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_22.txt",
+      "original_size": 13399,
+      "compressed_size": 10276,
+      "compression_ratio": "23.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 63,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_23.txt",
+      "original_size": 14004,
+      "compressed_size": 10876,
+      "compression_ratio": "22.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 55,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_24.txt",
+      "original_size": 14735,
+      "compressed_size": 11090,
+      "compression_ratio": "24.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 48,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_25.txt",
+      "original_size": 15998,
+      "compressed_size": 12296,
+      "compression_ratio": "23.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 68,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_26.txt",
+      "original_size": 16342,
+      "compressed_size": 11973,
+      "compression_ratio": "26.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 54,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_27.txt",
+      "original_size": 7117,
+      "compressed_size": 5324,
+      "compression_ratio": "25.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 38,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_3.txt",
+      "original_size": 18780,
+      "compressed_size": 13720,
+      "compression_ratio": "26.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 72,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_4.txt",
+      "original_size": 17601,
+      "compressed_size": 13082,
+      "compression_ratio": "25.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 78,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_5.txt",
+      "original_size": 18867,
+      "compressed_size": 13715,
+      "compression_ratio": "27.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 70,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_6.txt",
+      "original_size": 14879,
+      "compressed_size": 11434,
+      "compression_ratio": "23.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 72,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_7.txt",
+      "original_size": 15672,
+      "compressed_size": 12081,
+      "compression_ratio": "22.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 60,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_8.txt",
+      "original_size": 15827,
+      "compressed_size": 12140,
+      "compression_ratio": "23.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 57,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_11_9.txt",
+      "original_size": 17230,
+      "compressed_size": 13006,
+      "compression_ratio": "24.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 66,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_12_1.txt",
+      "original_size": 28980,
+      "compressed_size": 20567,
+      "compression_ratio": "29.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 65,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_12_10.txt",
+      "original_size": 16252,
+      "compressed_size": 12552,
+      "compression_ratio": "22.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 61,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_12_11.txt",
+      "original_size": 17521,
+      "compressed_size": 13097,
+      "compression_ratio": "25.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 80,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_12_12.txt",
+      "original_size": 15425,
+      "compressed_size": 11717,
+      "compression_ratio": "24.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 62,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_12_13.txt",
+      "original_size": 9494,
+      "compressed_size": 7308,
+      "compression_ratio": "23.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 57,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_12_2.txt",
+      "original_size": 19106,
+      "compressed_size": 14601,
+      "compression_ratio": "23.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 112,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_12_3.txt",
+      "original_size": 21130,
+      "compressed_size": 15790,
+      "compression_ratio": "25.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 84,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_12_4.txt",
+      "original_size": 21435,
+      "compressed_size": 15789,
+      "compression_ratio": "26.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 66,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_12_5.txt",
+      "original_size": 18932,
+      "compressed_size": 14387,
+      "compression_ratio": "24.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 59,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_12_6.txt",
+      "original_size": 20020,
+      "compressed_size": 14908,
+      "compression_ratio": "25.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 61,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_12_7.txt",
+      "original_size": 19217,
+      "compressed_size": 14418,
+      "compression_ratio": "25.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 74,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_12_8.txt",
+      "original_size": 19004,
+      "compressed_size": 14355,
+      "compression_ratio": "24.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 80,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_12_9.txt",
+      "original_size": 19116,
+      "compressed_size": 14339,
+      "compression_ratio": "25.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 64,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_13_1.txt",
+      "original_size": 34088,
+      "compressed_size": 24574,
+      "compression_ratio": "27.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 108,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_13_2.txt",
+      "original_size": 31150,
+      "compressed_size": 21902,
+      "compression_ratio": "29.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 137,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_13_3.txt",
+      "original_size": 24201,
+      "compressed_size": 17280,
+      "compression_ratio": "28.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 153,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_13_4.txt",
+      "original_size": 31132,
+      "compressed_size": 22201,
+      "compression_ratio": "28.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 155,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_13_5.txt",
+      "original_size": 24566,
+      "compressed_size": 17317,
+      "compression_ratio": "29.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 155,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_13_6.txt",
+      "original_size": 25901,
+      "compressed_size": 18737,
+      "compression_ratio": "27.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 189,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_13_7.txt",
+      "original_size": 5307,
+      "compressed_size": 3907,
+      "compression_ratio": "26.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 50,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_14_1.txt",
+      "original_size": 52152,
+      "compressed_size": 35699,
+      "compression_ratio": "31.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 249,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_14_2.txt",
+      "original_size": 20066,
+      "compressed_size": 13456,
+      "compression_ratio": "32.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 112,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_15_1.txt",
+      "original_size": 46360,
+      "compressed_size": 31765,
+      "compression_ratio": "31.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 236,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_15_2.txt",
+      "original_size": 44134,
+      "compressed_size": 31016,
+      "compression_ratio": "29.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 209,
+      "blocks_compressed": 2
+    },
+    {
+      "filename": "Aitana_15_3.txt",
+      "original_size": 38521,
+      "compressed_size": 27674,
+      "compression_ratio": "28.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 190,
+      "blocks_compressed": 1
+    },
+    {
+      "filename": "Aitana_15_4.txt",
+      "original_size": 28061,
+      "compressed_size": 19419,
+      "compression_ratio": "30.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 176,
+      "blocks_compressed": 1
+    },
+    {
+      "filename": "Aitana_16_1.txt",
+      "original_size": 46369,
+      "compressed_size": 31834,
+      "compression_ratio": "31.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 201,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_16_2.txt",
+      "original_size": 37217,
+      "compressed_size": 25759,
+      "compression_ratio": "30.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 206,
+      "blocks_compressed": 3
+    },
+    {
+      "filename": "Aitana_16_3.txt",
+      "original_size": 33711,
+      "compressed_size": 23183,
+      "compression_ratio": "31.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 189,
+      "blocks_compressed": 2
+    },
+    {
+      "filename": "Aitana_17_1.txt",
+      "original_size": 41700,
+      "compressed_size": 28523,
+      "compression_ratio": "31.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 165,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_17_2.txt",
+      "original_size": 29500,
+      "compressed_size": 21180,
+      "compression_ratio": "28.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 176,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_17_3.txt",
+      "original_size": 27984,
+      "compressed_size": 19675,
+      "compression_ratio": "29.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 134,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_17_4.txt",
+      "original_size": 30232,
+      "compressed_size": 21473,
+      "compression_ratio": "29.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 156,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_18_1.txt",
+      "original_size": 55488,
+      "compressed_size": 38473,
+      "compression_ratio": "30.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 223,
+      "blocks_compressed": 2
+    },
+    {
+      "filename": "Aitana_18_2.txt",
+      "original_size": 45792,
+      "compressed_size": 32429,
+      "compression_ratio": "29.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 196,
+      "blocks_compressed": 2
+    },
+    {
+      "filename": "Aitana_18_3.txt",
+      "original_size": 26537,
+      "compressed_size": 18782,
+      "compression_ratio": "29.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 138,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_19_1.txt",
+      "original_size": 39596,
+      "compressed_size": 27248,
+      "compression_ratio": "31.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 200,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_19_2.txt",
+      "original_size": 17877,
+      "compressed_size": 12724,
+      "compression_ratio": "28.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 97,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_1_1.txt",
+      "original_size": 28515,
+      "compressed_size": 20899,
+      "compression_ratio": "26.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 92,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_1_2.txt",
+      "original_size": 28272,
+      "compressed_size": 20830,
+      "compression_ratio": "26.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 91,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_1_3.txt",
+      "original_size": 27368,
+      "compressed_size": 20361,
+      "compression_ratio": "25.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 82,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_1_4.txt",
+      "original_size": 26519,
+      "compressed_size": 19406,
+      "compression_ratio": "26.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 87,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_1_5.txt",
+      "original_size": 30771,
+      "compressed_size": 22735,
+      "compression_ratio": "26.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 141,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_1_6.txt",
+      "original_size": 27308,
+      "compressed_size": 19986,
+      "compression_ratio": "26.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 86,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_1_7.txt",
+      "original_size": 28811,
+      "compressed_size": 20709,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 97,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_1_8.txt",
+      "original_size": 25519,
+      "compressed_size": 18331,
+      "compression_ratio": "28.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 90,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_20_1.txt",
+      "original_size": 17126,
+      "compressed_size": 12602,
+      "compression_ratio": "26.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 67,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_20_2.txt",
+      "original_size": 9007,
+      "compressed_size": 6683,
+      "compression_ratio": "25.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 43,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_21_1.txt",
+      "original_size": 35813,
+      "compressed_size": 24678,
+      "compression_ratio": "31.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 190,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_21_2.txt",
+      "original_size": 30578,
+      "compressed_size": 22009,
+      "compression_ratio": "28.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 183,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_21_3.txt",
+      "original_size": 26899,
+      "compressed_size": 19637,
+      "compression_ratio": "27.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 205,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_21_4.txt",
+      "original_size": 26634,
+      "compressed_size": 19141,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 116,
+      "blocks_compressed": 1
+    },
+    {
+      "filename": "Aitana_21_5.txt",
+      "original_size": 19951,
+      "compressed_size": 15218,
+      "compression_ratio": "23.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 126,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_21_6.txt",
+      "original_size": 5425,
+      "compressed_size": 4014,
+      "compression_ratio": "26.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 28,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_21_Addendum_1.txt",
+      "original_size": 4014,
+      "compressed_size": 2939,
+      "compression_ratio": "26.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 23,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_22_1.txt",
+      "original_size": 44553,
+      "compressed_size": 30792,
+      "compression_ratio": "30.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 181,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_22_2.txt",
+      "original_size": 38678,
+      "compressed_size": 27937,
+      "compression_ratio": "27.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 152,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_22_3.txt",
+      "original_size": 33930,
+      "compressed_size": 24625,
+      "compression_ratio": "27.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 157,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_22_4.txt",
+      "original_size": 17153,
+      "compressed_size": 12385,
+      "compression_ratio": "27.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 84,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_23_1.txt",
+      "original_size": 35511,
+      "compressed_size": 24958,
+      "compression_ratio": "29.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 176,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_23_2.txt",
+      "original_size": 27026,
+      "compressed_size": 19995,
+      "compression_ratio": "26.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 155,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_23_3.txt",
+      "original_size": 25682,
+      "compressed_size": 19007,
+      "compression_ratio": "26.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 152,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_23_4.txt",
+      "original_size": 23781,
+      "compressed_size": 17106,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 108,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_24_1.txt",
+      "original_size": 34834,
+      "compressed_size": 24577,
+      "compression_ratio": "29.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 181,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_24_2.txt",
+      "original_size": 14288,
+      "compressed_size": 10409,
+      "compression_ratio": "27.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 81,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_25_1.txt",
+      "original_size": 40145,
+      "compressed_size": 28129,
+      "compression_ratio": "29.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 198,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_25_2.txt",
+      "original_size": 29287,
+      "compressed_size": 21020,
+      "compression_ratio": "28.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 163,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_25_3.txt",
+      "original_size": 19415,
+      "compressed_size": 14031,
+      "compression_ratio": "27.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 121,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_26_1.txt",
+      "original_size": 41402,
+      "compressed_size": 28361,
+      "compression_ratio": "31.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 219,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_26_2.txt",
+      "original_size": 51602,
+      "compressed_size": 36495,
+      "compression_ratio": "29.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 309,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_27_1.txt",
+      "original_size": 44110,
+      "compressed_size": 31354,
+      "compression_ratio": "28.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 227,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_27_2.txt",
+      "original_size": 5028,
+      "compressed_size": 3800,
+      "compression_ratio": "24.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 43,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_28_1.txt",
+      "original_size": 34177,
+      "compressed_size": 24347,
+      "compression_ratio": "28.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 209,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_28_2.txt",
+      "original_size": 29720,
+      "compressed_size": 22609,
+      "compression_ratio": "23.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 215,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_28_3.txt",
+      "original_size": 18648,
+      "compressed_size": 14502,
+      "compression_ratio": "22.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 115,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_29_1.txt",
+      "original_size": 35845,
+      "compressed_size": 25783,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 198,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_29_2.txt",
+      "original_size": 44708,
+      "compressed_size": 31795,
+      "compression_ratio": "28.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 185,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_29_3.txt",
+      "original_size": 36428,
+      "compressed_size": 25826,
+      "compression_ratio": "29.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 136,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_2_1.txt",
+      "original_size": 29978,
+      "compressed_size": 21807,
+      "compression_ratio": "27.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 106,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_2_2.txt",
+      "original_size": 28840,
+      "compressed_size": 21106,
+      "compression_ratio": "26.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 105,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_2_3.txt",
+      "original_size": 29273,
+      "compressed_size": 21032,
+      "compression_ratio": "28.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 102,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_2_4.txt",
+      "original_size": 28572,
+      "compressed_size": 20442,
+      "compression_ratio": "28.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 111,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_2_5.txt",
+      "original_size": 32609,
+      "compressed_size": 23035,
+      "compression_ratio": "29.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 110,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_2_6.txt",
+      "original_size": 27450,
+      "compressed_size": 19800,
+      "compression_ratio": "27.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 89,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_2_7.txt",
+      "original_size": 29808,
+      "compressed_size": 21283,
+      "compression_ratio": "28.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 96,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_2_8.txt",
+      "original_size": 24162,
+      "compressed_size": 17163,
+      "compression_ratio": "29.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 104,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_30_1.txt",
+      "original_size": 17329,
+      "compressed_size": 12813,
+      "compression_ratio": "26.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 67,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_30_2.txt",
+      "original_size": 20203,
+      "compressed_size": 15055,
+      "compression_ratio": "25.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 84,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_30_3.txt",
+      "original_size": 8709,
+      "compressed_size": 6803,
+      "compression_ratio": "21.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 51,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_31_1.txt",
+      "original_size": 38441,
+      "compressed_size": 27360,
+      "compression_ratio": "28.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 290,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_31_2.txt",
+      "original_size": 31434,
+      "compressed_size": 22429,
+      "compression_ratio": "28.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 166,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_31_3.txt",
+      "original_size": 27963,
+      "compressed_size": 20269,
+      "compression_ratio": "27.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 187,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_31_4.txt",
+      "original_size": 9437,
+      "compressed_size": 7244,
+      "compression_ratio": "23.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 85,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_32_1.txt",
+      "original_size": 35874,
+      "compressed_size": 24871,
+      "compression_ratio": "30.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 186,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_32_2.txt",
+      "original_size": 3133,
+      "compressed_size": 2357,
+      "compression_ratio": "24.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 14,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_33_1.txt",
+      "original_size": 34966,
+      "compressed_size": 24493,
+      "compression_ratio": "30.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 181,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_33_2.txt",
+      "original_size": 27007,
+      "compressed_size": 19627,
+      "compression_ratio": "27.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 114,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_33_3.txt",
+      "original_size": 25272,
+      "compressed_size": 18358,
+      "compression_ratio": "27.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 120,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_33_4.txt",
+      "original_size": 24717,
+      "compressed_size": 18056,
+      "compression_ratio": "26.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 136,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_33_5.txt",
+      "original_size": 24337,
+      "compressed_size": 18216,
+      "compression_ratio": "25.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 123,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_33_6.txt",
+      "original_size": 30426,
+      "compressed_size": 21452,
+      "compression_ratio": "29.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 129,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_33_7.txt",
+      "original_size": 19722,
+      "compressed_size": 14482,
+      "compression_ratio": "26.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 134,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_A_1.txt",
+      "original_size": 28861,
+      "compressed_size": 20131,
+      "compression_ratio": "30.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 162,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_B_1.txt",
+      "original_size": 40138,
+      "compressed_size": 28076,
+      "compression_ratio": "30.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 208,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_B_2.txt",
+      "original_size": 38981,
+      "compressed_size": 28045,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 171,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_B_3.txt",
+      "original_size": 28122,
+      "compressed_size": 20972,
+      "compression_ratio": "25.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 154,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_B_4.txt",
+      "original_size": 17832,
+      "compressed_size": 13774,
+      "compression_ratio": "22.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 135,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_B_5.txt",
+      "original_size": 20336,
+      "compressed_size": 15270,
+      "compression_ratio": "24.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 111,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_B_6.txt",
+      "original_size": 28212,
+      "compressed_size": 20827,
+      "compression_ratio": "26.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 174,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_B_7.txt",
+      "original_size": 22551,
+      "compressed_size": 16220,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 119,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_C_1.txt",
+      "original_size": 40138,
+      "compressed_size": 28076,
+      "compression_ratio": "30.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 208,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_C_2.txt",
+      "original_size": 38981,
+      "compressed_size": 28045,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 171,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_C_3.txt",
+      "original_size": 28122,
+      "compressed_size": 20972,
+      "compression_ratio": "25.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 154,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_C_4.txt",
+      "original_size": 17832,
+      "compressed_size": 13774,
+      "compression_ratio": "22.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 135,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_C_5.txt",
+      "original_size": 20336,
+      "compressed_size": 15270,
+      "compression_ratio": "24.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 111,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_C_6.txt",
+      "original_size": 28212,
+      "compressed_size": 20827,
+      "compression_ratio": "26.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 174,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_C_7.txt",
+      "original_size": 37427,
+      "compressed_size": 27036,
+      "compression_ratio": "27.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 194,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_C_8.txt",
+      "original_size": 1810,
+      "compressed_size": 1271,
+      "compression_ratio": "29.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 15,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_Full_1.txt",
+      "original_size": 40138,
+      "compressed_size": 28076,
+      "compression_ratio": "30.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 208,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_Full_2.txt",
+      "original_size": 38981,
+      "compressed_size": 28045,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 171,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_Full_3.txt",
+      "original_size": 28122,
+      "compressed_size": 20972,
+      "compression_ratio": "25.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 154,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_Full_4.txt",
+      "original_size": 17832,
+      "compressed_size": 13774,
+      "compression_ratio": "22.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 135,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_Full_5.txt",
+      "original_size": 20336,
+      "compressed_size": 15270,
+      "compression_ratio": "24.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 111,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_Full_6.txt",
+      "original_size": 28212,
+      "compressed_size": 20827,
+      "compression_ratio": "26.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 174,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_Full_7.txt",
+      "original_size": 37427,
+      "compressed_size": 27036,
+      "compression_ratio": "27.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 194,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_34_Full_8.txt",
+      "original_size": 5510,
+      "compressed_size": 3991,
+      "compression_ratio": "27.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 44,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_35_1.txt",
+      "original_size": 34621,
+      "compressed_size": 24244,
+      "compression_ratio": "30.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 155,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_35_2.txt",
+      "original_size": 32854,
+      "compressed_size": 23027,
+      "compression_ratio": "29.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 76,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_35_3.txt",
+      "original_size": 39000,
+      "compressed_size": 27639,
+      "compression_ratio": "29.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 119,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_35_4.txt",
+      "original_size": 28735,
+      "compressed_size": 21249,
+      "compression_ratio": "26.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 141,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_35_5.txt",
+      "original_size": 1564,
+      "compressed_size": 1192,
+      "compression_ratio": "23.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 20,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_36_1.txt",
+      "original_size": 41968,
+      "compressed_size": 29155,
+      "compression_ratio": "30.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 185,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_36_2.txt",
+      "original_size": 21308,
+      "compressed_size": 15881,
+      "compression_ratio": "25.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 127,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_36_3.txt",
+      "original_size": 18850,
+      "compressed_size": 14645,
+      "compression_ratio": "22.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 149,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_36_4.txt",
+      "original_size": 23813,
+      "compressed_size": 17858,
+      "compression_ratio": "25.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 134,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_36_5.txt",
+      "original_size": 14875,
+      "compressed_size": 10670,
+      "compression_ratio": "28.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 82,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_37_1.txt",
+      "original_size": 37871,
+      "compressed_size": 26770,
+      "compression_ratio": "29.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 185,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_37_2.txt",
+      "original_size": 24122,
+      "compressed_size": 17817,
+      "compression_ratio": "26.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 146,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_37_3.txt",
+      "original_size": 26189,
+      "compressed_size": 19315,
+      "compression_ratio": "26.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 138,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_37_4.txt",
+      "original_size": 21643,
+      "compressed_size": 16281,
+      "compression_ratio": "24.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 145,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_37_5.txt",
+      "original_size": 23243,
+      "compressed_size": 17526,
+      "compression_ratio": "24.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 137,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_37_6.txt",
+      "original_size": 13131,
+      "compressed_size": 10072,
+      "compression_ratio": "23.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 97,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_38_1.txt",
+      "original_size": 32888,
+      "compressed_size": 23261,
+      "compression_ratio": "29.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 179,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_38_2.txt",
+      "original_size": 29078,
+      "compressed_size": 21632,
+      "compression_ratio": "25.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 137,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_38_3.txt",
+      "original_size": 23472,
+      "compressed_size": 17959,
+      "compression_ratio": "23.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 132,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_38_4.txt",
+      "original_size": 20002,
+      "compressed_size": 15267,
+      "compression_ratio": "23.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 145,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_38_5.txt",
+      "original_size": 21333,
+      "compressed_size": 16426,
+      "compression_ratio": "23.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 124,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_38_6.txt",
+      "original_size": 3798,
+      "compressed_size": 2909,
+      "compression_ratio": "23.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 17,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_39_1.txt",
+      "original_size": 39536,
+      "compressed_size": 28107,
+      "compression_ratio": "28.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 241,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_39_2.txt",
+      "original_size": 33706,
+      "compressed_size": 23867,
+      "compression_ratio": "29.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 187,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_39_3.txt",
+      "original_size": 30872,
+      "compressed_size": 23202,
+      "compression_ratio": "24.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 164,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_39_4.txt",
+      "original_size": 4962,
+      "compressed_size": 3734,
+      "compression_ratio": "24.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 63,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_3_1.txt",
+      "original_size": 32926,
+      "compressed_size": 23417,
+      "compression_ratio": "28.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 143,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_3_2.txt",
+      "original_size": 36518,
+      "compressed_size": 25839,
+      "compression_ratio": "29.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 160,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_3_3.txt",
+      "original_size": 36430,
+      "compressed_size": 25444,
+      "compression_ratio": "30.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 142,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_3_4.txt",
+      "original_size": 23015,
+      "compressed_size": 16241,
+      "compression_ratio": "29.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 97,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_1.txt",
+      "original_size": 32888,
+      "compressed_size": 23572,
+      "compression_ratio": "28.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 236,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_2.txt",
+      "original_size": 32464,
+      "compressed_size": 23710,
+      "compression_ratio": "27.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 238,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_2_1.txt",
+      "original_size": 32888,
+      "compressed_size": 23572,
+      "compression_ratio": "28.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 236,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_2_2.txt",
+      "original_size": 32464,
+      "compressed_size": 23710,
+      "compression_ratio": "27.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 238,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_2_3.txt",
+      "original_size": 34307,
+      "compressed_size": 24914,
+      "compression_ratio": "27.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 176,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_2_4.txt",
+      "original_size": 33847,
+      "compressed_size": 24890,
+      "compression_ratio": "26.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 146,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_2_5.txt",
+      "original_size": 27760,
+      "compressed_size": 20153,
+      "compression_ratio": "27.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 172,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_2_6.txt",
+      "original_size": 33215,
+      "compressed_size": 23582,
+      "compression_ratio": "29.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 149,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_2_7.txt",
+      "original_size": 28445,
+      "compressed_size": 20519,
+      "compression_ratio": "27.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 96,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_2_8.txt",
+      "original_size": 23290,
+      "compressed_size": 17028,
+      "compression_ratio": "26.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 121,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_3.txt",
+      "original_size": 34307,
+      "compressed_size": 24914,
+      "compression_ratio": "27.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 176,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_4.txt",
+      "original_size": 33847,
+      "compressed_size": 24890,
+      "compression_ratio": "26.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 146,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_5.txt",
+      "original_size": 27760,
+      "compressed_size": 20153,
+      "compression_ratio": "27.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 172,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_6.txt",
+      "original_size": 33215,
+      "compressed_size": 23582,
+      "compression_ratio": "29.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 149,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_7.txt",
+      "original_size": 28445,
+      "compressed_size": 20519,
+      "compression_ratio": "27.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 96,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_8.txt",
+      "original_size": 23290,
+      "compressed_size": 17028,
+      "compression_ratio": "26.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 121,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_TheMissingHalf_1.txt",
+      "original_size": 29564,
+      "compressed_size": 21256,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 169,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_TheMissingHalf_2.txt",
+      "original_size": 32434,
+      "compressed_size": 22976,
+      "compression_ratio": "29.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 132,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_TheMissingHalf_3.txt",
+      "original_size": 27113,
+      "compressed_size": 19707,
+      "compression_ratio": "27.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 113,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_TheMissingHalf_4.txt",
+      "original_size": 17278,
+      "compressed_size": 12662,
+      "compression_ratio": "26.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 95,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_TheMissingHalf_DirectLoad_1.txt",
+      "original_size": 29564,
+      "compressed_size": 21256,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 169,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_TheMissingHalf_DirectLoad_2.txt",
+      "original_size": 32434,
+      "compressed_size": 22976,
+      "compression_ratio": "29.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 132,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_TheMissingHalf_DirectLoad_3.txt",
+      "original_size": 27113,
+      "compressed_size": 19707,
+      "compression_ratio": "27.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 113,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_40_TheMissingHalf_DirectLoad_4.txt",
+      "original_size": 17278,
+      "compressed_size": 12662,
+      "compression_ratio": "26.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 95,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_41_1.txt",
+      "original_size": 16771,
+      "compressed_size": 12377,
+      "compression_ratio": "26.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 57,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_41_2.txt",
+      "original_size": 5816,
+      "compressed_size": 4361,
+      "compression_ratio": "25.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 22,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_42_1.txt",
+      "original_size": 17206,
+      "compressed_size": 12723,
+      "compression_ratio": "26.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 63,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_42_2.txt",
+      "original_size": 19302,
+      "compressed_size": 14347,
+      "compression_ratio": "25.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 65,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_42_3.txt",
+      "original_size": 16232,
+      "compressed_size": 12305,
+      "compression_ratio": "24.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 72,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_43_1.txt",
+      "original_size": 44246,
+      "compressed_size": 31631,
+      "compression_ratio": "28.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 150,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_43_2.txt",
+      "original_size": 13808,
+      "compressed_size": 10174,
+      "compression_ratio": "26.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 60,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_44_1.txt",
+      "original_size": 17290,
+      "compressed_size": 13077,
+      "compression_ratio": "24.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 89,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_44_2.txt",
+      "original_size": 19487,
+      "compressed_size": 14673,
+      "compression_ratio": "24.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 91,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_44_3.txt",
+      "original_size": 14739,
+      "compressed_size": 11323,
+      "compression_ratio": "23.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 73,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_44_4.txt",
+      "original_size": 13931,
+      "compressed_size": 10749,
+      "compression_ratio": "22.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 62,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_44_5.txt",
+      "original_size": 2287,
+      "compressed_size": 1790,
+      "compression_ratio": "21.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 12,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_45_1.txt",
+      "original_size": 19830,
+      "compressed_size": 14699,
+      "compression_ratio": "25.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 101,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_45_2.txt",
+      "original_size": 16211,
+      "compressed_size": 12927,
+      "compression_ratio": "20.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 69,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_45_3.txt",
+      "original_size": 11808,
+      "compressed_size": 9457,
+      "compression_ratio": "19.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 55,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_46_1.txt",
+      "original_size": 20686,
+      "compressed_size": 14683,
+      "compression_ratio": "29.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 87,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_47_1.txt",
+      "original_size": 40957,
+      "compressed_size": 29224,
+      "compression_ratio": "28.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 160,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_47_2.txt",
+      "original_size": 24994,
+      "compressed_size": 18860,
+      "compression_ratio": "24.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 140,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_47_3.txt",
+      "original_size": 7093,
+      "compressed_size": 5456,
+      "compression_ratio": "23.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 57,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_48_1.txt",
+      "original_size": 18823,
+      "compressed_size": 14019,
+      "compression_ratio": "25.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 71,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_48_2.txt",
+      "original_size": 24060,
+      "compressed_size": 17476,
+      "compression_ratio": "27.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 63,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_48_3.txt",
+      "original_size": 22016,
+      "compressed_size": 16096,
+      "compression_ratio": "26.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 59,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_48_4.txt",
+      "original_size": 21726,
+      "compressed_size": 15992,
+      "compression_ratio": "26.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 52,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_48_5.txt",
+      "original_size": 18186,
+      "compressed_size": 13822,
+      "compression_ratio": "24.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 46,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_48_6.txt",
+      "original_size": 19204,
+      "compressed_size": 14367,
+      "compression_ratio": "25.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 68,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_48_7.txt",
+      "original_size": 20021,
+      "compressed_size": 14837,
+      "compression_ratio": "25.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 66,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_48_8.txt",
+      "original_size": 3347,
+      "compressed_size": 2420,
+      "compression_ratio": "27.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 19,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_49_1.txt",
+      "original_size": 34302,
+      "compressed_size": 25023,
+      "compression_ratio": "27.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 179,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_49_2.txt",
+      "original_size": 37374,
+      "compressed_size": 27299,
+      "compression_ratio": "27.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 134,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_49_3.txt",
+      "original_size": 33178,
+      "compressed_size": 24005,
+      "compression_ratio": "27.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 159,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_49_4.txt",
+      "original_size": 31707,
+      "compressed_size": 23422,
+      "compression_ratio": "26.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 119,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_49_5.txt",
+      "original_size": 38006,
+      "compressed_size": 27202,
+      "compression_ratio": "28.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 166,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_49_6.txt",
+      "original_size": 4326,
+      "compressed_size": 3228,
+      "compression_ratio": "25.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 30,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_4_1.txt",
+      "original_size": 21072,
+      "compressed_size": 15544,
+      "compression_ratio": "26.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 67,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_4_2.txt",
+      "original_size": 17719,
+      "compressed_size": 13036,
+      "compression_ratio": "26.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 44,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_4_3.txt",
+      "original_size": 17651,
+      "compressed_size": 13177,
+      "compression_ratio": "25.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 73,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_4_4.txt",
+      "original_size": 17357,
+      "compressed_size": 12894,
+      "compression_ratio": "25.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 73,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_4_5.txt",
+      "original_size": 16102,
+      "compressed_size": 12163,
+      "compression_ratio": "24.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 58,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_4_6.txt",
+      "original_size": 17548,
+      "compressed_size": 13102,
+      "compression_ratio": "25.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 61,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_4_7.txt",
+      "original_size": 17949,
+      "compressed_size": 13278,
+      "compression_ratio": "26.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 51,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_4_8.txt",
+      "original_size": 18747,
+      "compressed_size": 13868,
+      "compression_ratio": "26.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 76,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_4_9.txt",
+      "original_size": 15003,
+      "compressed_size": 11035,
+      "compression_ratio": "26.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 50,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_50_1.txt",
+      "original_size": 33029,
+      "compressed_size": 23635,
+      "compression_ratio": "28.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 121,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_50_2.txt",
+      "original_size": 30308,
+      "compressed_size": 22387,
+      "compression_ratio": "26.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 132,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_50_3.txt",
+      "original_size": 31007,
+      "compressed_size": 23016,
+      "compression_ratio": "25.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 162,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_50_4.txt",
+      "original_size": 39544,
+      "compressed_size": 28040,
+      "compression_ratio": "29.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 210,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_50_5.txt",
+      "original_size": 27167,
+      "compressed_size": 19775,
+      "compression_ratio": "27.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 158,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_50_6.txt",
+      "original_size": 34162,
+      "compressed_size": 25656,
+      "compression_ratio": "24.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 210,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_50_7.txt",
+      "original_size": 42705,
+      "compressed_size": 31089,
+      "compression_ratio": "27.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 221,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_50_8.txt",
+      "original_size": 6108,
+      "compressed_size": 4317,
+      "compression_ratio": "29.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 36,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_51_1.txt",
+      "original_size": 37682,
+      "compressed_size": 27390,
+      "compression_ratio": "27.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 194,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_51_2.txt",
+      "original_size": 35149,
+      "compressed_size": 25419,
+      "compression_ratio": "27.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 166,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_51_3.txt",
+      "original_size": 31834,
+      "compressed_size": 23347,
+      "compression_ratio": "26.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 160,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_51_4.txt",
+      "original_size": 37801,
+      "compressed_size": 26742,
+      "compression_ratio": "29.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 175,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_51_5.txt",
+      "original_size": 44492,
+      "compressed_size": 32497,
+      "compression_ratio": "27.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 203,
+      "blocks_compressed": 1
+    },
+    {
+      "filename": "Aitana_52_1.txt",
+      "original_size": 56981,
+      "compressed_size": 40608,
+      "compression_ratio": "28.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 182,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_52_2.txt",
+      "original_size": 23109,
+      "compressed_size": 17061,
+      "compression_ratio": "26.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 60,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_53_1.txt",
+      "original_size": 24128,
+      "compressed_size": 17200,
+      "compression_ratio": "28.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 90,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_54_1.txt",
+      "original_size": 16991,
+      "compressed_size": 13124,
+      "compression_ratio": "22.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 66,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_54_2.txt",
+      "original_size": 1233,
+      "compressed_size": 1058,
+      "compression_ratio": "14.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 3,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_55_1.txt",
+      "original_size": 41845,
+      "compressed_size": 29908,
+      "compression_ratio": "28.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 138,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_55_2.txt",
+      "original_size": 21314,
+      "compressed_size": 15525,
+      "compression_ratio": "27.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 75,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_56_1.txt",
+      "original_size": 46798,
+      "compressed_size": 33229,
+      "compression_ratio": "29.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 176,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_56_2.txt",
+      "original_size": 32176,
+      "compressed_size": 23319,
+      "compression_ratio": "27.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 142,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_56_3.txt",
+      "original_size": 28777,
+      "compressed_size": 20495,
+      "compression_ratio": "28.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 126,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_57_1.txt",
+      "original_size": 44219,
+      "compressed_size": 30577,
+      "compression_ratio": "30.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 163,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_58_1.txt",
+      "original_size": 45038,
+      "compressed_size": 31489,
+      "compression_ratio": "30.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 133,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_58_2.txt",
+      "original_size": 33822,
+      "compressed_size": 24267,
+      "compression_ratio": "28.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 94,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_58_3.txt",
+      "original_size": 31951,
+      "compressed_size": 22943,
+      "compression_ratio": "28.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 111,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_58_4.txt",
+      "original_size": 7032,
+      "compressed_size": 5091,
+      "compression_ratio": "27.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 25,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_59_1.txt",
+      "original_size": 46913,
+      "compressed_size": 32312,
+      "compression_ratio": "31.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 144,
+      "blocks_compressed": 3
+    },
+    {
+      "filename": "Aitana_59_2.txt",
+      "original_size": 44050,
+      "compressed_size": 30989,
+      "compression_ratio": "29.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 150,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_59_3.txt",
+      "original_size": 9301,
+      "compressed_size": 6579,
+      "compression_ratio": "29.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 46,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5_1.txt",
+      "original_size": 38044,
+      "compressed_size": 27060,
+      "compression_ratio": "28.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 137,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5_2.txt",
+      "original_size": 40076,
+      "compressed_size": 28218,
+      "compression_ratio": "29.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 153,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5_3.txt",
+      "original_size": 35693,
+      "compressed_size": 25682,
+      "compression_ratio": "28.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 143,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5_4.txt",
+      "original_size": 38859,
+      "compressed_size": 27525,
+      "compression_ratio": "29.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 132,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5_5.txt",
+      "original_size": 35974,
+      "compressed_size": 25583,
+      "compression_ratio": "28.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 135,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5_6.txt",
+      "original_size": 38362,
+      "compressed_size": 27588,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 136,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5_7.txt",
+      "original_size": 32958,
+      "compressed_size": 23687,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 134,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5_8.txt",
+      "original_size": 26428,
+      "compressed_size": 18666,
+      "compression_ratio": "29.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 97,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5a_1.txt",
+      "original_size": 38044,
+      "compressed_size": 27060,
+      "compression_ratio": "28.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 137,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5a_2.txt",
+      "original_size": 40076,
+      "compressed_size": 28218,
+      "compression_ratio": "29.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 153,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5a_3.txt",
+      "original_size": 35693,
+      "compressed_size": 25682,
+      "compression_ratio": "28.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 143,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5a_4.txt",
+      "original_size": 38859,
+      "compressed_size": 27525,
+      "compression_ratio": "29.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 132,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5b_1.txt",
+      "original_size": 36003,
+      "compressed_size": 25602,
+      "compression_ratio": "28.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 135,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5b_2.txt",
+      "original_size": 38448,
+      "compressed_size": 27649,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 137,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5b_3.txt",
+      "original_size": 32860,
+      "compressed_size": 23615,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 133,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_5b_4.txt",
+      "original_size": 26398,
+      "compressed_size": 18644,
+      "compression_ratio": "29.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 97,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_60_1.txt",
+      "original_size": 26518,
+      "compressed_size": 18270,
+      "compression_ratio": "31.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 128,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_61_1.txt",
+      "original_size": 56835,
+      "compressed_size": 41412,
+      "compression_ratio": "27.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 211,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_61_2.txt",
+      "original_size": 26289,
+      "compressed_size": 19463,
+      "compression_ratio": "26.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 133,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_62_1.txt",
+      "original_size": 22512,
+      "compressed_size": 16158,
+      "compression_ratio": "28.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 71,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_62_2.txt",
+      "original_size": 24343,
+      "compressed_size": 18204,
+      "compression_ratio": "25.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 95,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_62_3.txt",
+      "original_size": 6001,
+      "compressed_size": 4664,
+      "compression_ratio": "22.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 40,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_63_1.txt",
+      "original_size": 16750,
+      "compressed_size": 12052,
+      "compression_ratio": "28.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 58,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_64_1.txt",
+      "original_size": 49344,
+      "compressed_size": 34153,
+      "compression_ratio": "30.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 207,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_64_2.txt",
+      "original_size": 42312,
+      "compressed_size": 31698,
+      "compression_ratio": "25.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 192,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_64_3.txt",
+      "original_size": 37564,
+      "compressed_size": 27465,
+      "compression_ratio": "26.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 190,
+      "blocks_compressed": 1
+    },
+    {
+      "filename": "Aitana_65_1.txt",
+      "original_size": 51210,
+      "compressed_size": 36667,
+      "compression_ratio": "28.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 225,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_65_2.txt",
+      "original_size": 38856,
+      "compressed_size": 29294,
+      "compression_ratio": "24.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 171,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_65_3.txt",
+      "original_size": 191,
+      "compressed_size": 170,
+      "compression_ratio": "11.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 2,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_66_1.txt",
+      "original_size": 45718,
+      "compressed_size": 33226,
+      "compression_ratio": "27.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 178,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_66_2.txt",
+      "original_size": 39791,
+      "compressed_size": 29964,
+      "compression_ratio": "24.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 170,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_66_3.txt",
+      "original_size": 38551,
+      "compressed_size": 29064,
+      "compression_ratio": "24.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 197,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_66_4.txt",
+      "original_size": 38092,
+      "compressed_size": 28498,
+      "compression_ratio": "25.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 178,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_66_5.txt",
+      "original_size": 14187,
+      "compressed_size": 10834,
+      "compression_ratio": "23.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 99,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_67_1.txt",
+      "original_size": 44829,
+      "compressed_size": 31821,
+      "compression_ratio": "29.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 203,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_67_2.txt",
+      "original_size": 27555,
+      "compressed_size": 20105,
+      "compression_ratio": "27.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 138,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_67_3.txt",
+      "original_size": 34572,
+      "compressed_size": 24840,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 159,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_67_4.txt",
+      "original_size": 34944,
+      "compressed_size": 24984,
+      "compression_ratio": "28.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 177,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_67_5.txt",
+      "original_size": 39939,
+      "compressed_size": 30471,
+      "compression_ratio": "23.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 155,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_67_6.txt",
+      "original_size": 36701,
+      "compressed_size": 27849,
+      "compression_ratio": "24.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 171,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_68_1.txt",
+      "original_size": 42932,
+      "compressed_size": 31532,
+      "compression_ratio": "26.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 210,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_68_2.txt",
+      "original_size": 35632,
+      "compressed_size": 27185,
+      "compression_ratio": "23.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 156,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_68_3.txt",
+      "original_size": 12844,
+      "compressed_size": 9626,
+      "compression_ratio": "25.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 91,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_69_1.txt",
+      "original_size": 36827,
+      "compressed_size": 27075,
+      "compression_ratio": "26.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 188,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_69_2.txt",
+      "original_size": 37885,
+      "compressed_size": 28319,
+      "compression_ratio": "25.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 187,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_69_3.txt",
+      "original_size": 34342,
+      "compressed_size": 26568,
+      "compression_ratio": "22.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 153,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_69_4.txt",
+      "original_size": 31646,
+      "compressed_size": 24171,
+      "compression_ratio": "23.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 143,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_69_5.txt",
+      "original_size": 35457,
+      "compressed_size": 26879,
+      "compression_ratio": "24.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 168,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_69_6.txt",
+      "original_size": 24474,
+      "compressed_size": 18573,
+      "compression_ratio": "24.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 115,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_6_1.txt",
+      "original_size": 44676,
+      "compressed_size": 31429,
+      "compression_ratio": "29.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 118,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_6_2.txt",
+      "original_size": 39191,
+      "compressed_size": 27569,
+      "compression_ratio": "29.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 167,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_6_3.txt",
+      "original_size": 34317,
+      "compressed_size": 24200,
+      "compression_ratio": "29.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 142,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_6_4.txt",
+      "original_size": 35524,
+      "compressed_size": 24550,
+      "compression_ratio": "30.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 134,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_6_5.txt",
+      "original_size": 24707,
+      "compressed_size": 16920,
+      "compression_ratio": "31.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 105,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_70_1.txt",
+      "original_size": 37500,
+      "compressed_size": 27144,
+      "compression_ratio": "27.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 165,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_70_2.txt",
+      "original_size": 35421,
+      "compressed_size": 26118,
+      "compression_ratio": "26.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 167,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_70_3.txt",
+      "original_size": 33712,
+      "compressed_size": 24227,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 120,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_70_4.txt",
+      "original_size": 29210,
+      "compressed_size": 21272,
+      "compression_ratio": "27.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 164,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_70_5.txt",
+      "original_size": 34542,
+      "compressed_size": 24990,
+      "compression_ratio": "27.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 145,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_71_1.txt",
+      "original_size": 36452,
+      "compressed_size": 25268,
+      "compression_ratio": "30.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 166,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_71_2.txt",
+      "original_size": 30672,
+      "compressed_size": 22475,
+      "compression_ratio": "26.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 135,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_71_3.txt",
+      "original_size": 33494,
+      "compressed_size": 24254,
+      "compression_ratio": "27.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 121,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_71_4.txt",
+      "original_size": 35409,
+      "compressed_size": 25264,
+      "compression_ratio": "28.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 109,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_71_5.txt",
+      "original_size": 37064,
+      "compressed_size": 26388,
+      "compression_ratio": "28.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 162,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_71_6.txt",
+      "original_size": 33590,
+      "compressed_size": 24014,
+      "compression_ratio": "28.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 134,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_71_7.txt",
+      "original_size": 830,
+      "compressed_size": 599,
+      "compression_ratio": "27.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 8,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_72_1.txt",
+      "original_size": 18464,
+      "compressed_size": 13362,
+      "compression_ratio": "27.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 95,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_72_2.txt",
+      "original_size": 18375,
+      "compressed_size": 13746,
+      "compression_ratio": "25.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 72,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_72_3.txt",
+      "original_size": 15829,
+      "compressed_size": 11988,
+      "compression_ratio": "24.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 90,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_72_4.txt",
+      "original_size": 901,
+      "compressed_size": 722,
+      "compression_ratio": "19.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 9,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_73_1.txt",
+      "original_size": 33735,
+      "compressed_size": 23688,
+      "compression_ratio": "29.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 170,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_73_2.txt",
+      "original_size": 35571,
+      "compressed_size": 25222,
+      "compression_ratio": "29.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 92,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_73_3.txt",
+      "original_size": 31747,
+      "compressed_size": 23139,
+      "compression_ratio": "27.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 119,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_73_4.txt",
+      "original_size": 25600,
+      "compressed_size": 18874,
+      "compression_ratio": "26.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 132,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_73_5.txt",
+      "original_size": 8079,
+      "compressed_size": 6057,
+      "compression_ratio": "25.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 44,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_74_1.txt",
+      "original_size": 33819,
+      "compressed_size": 23854,
+      "compression_ratio": "29.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 136,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_74_2.txt",
+      "original_size": 31734,
+      "compressed_size": 22614,
+      "compression_ratio": "28.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 127,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_74_3.txt",
+      "original_size": 33279,
+      "compressed_size": 23672,
+      "compression_ratio": "28.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 123,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_74_4.txt",
+      "original_size": 26203,
+      "compressed_size": 18973,
+      "compression_ratio": "27.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 115,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_74_5.txt",
+      "original_size": 18181,
+      "compressed_size": 13009,
+      "compression_ratio": "28.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 88,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_75_1.txt",
+      "original_size": 38760,
+      "compressed_size": 26988,
+      "compression_ratio": "30.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 146,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_75_2.txt",
+      "original_size": 36861,
+      "compressed_size": 25753,
+      "compression_ratio": "30.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 108,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_76_1.txt",
+      "original_size": 39552,
+      "compressed_size": 27413,
+      "compression_ratio": "30.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 143,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_76_2.txt",
+      "original_size": 36623,
+      "compressed_size": 25874,
+      "compression_ratio": "29.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 132,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_76_3.txt",
+      "original_size": 20496,
+      "compressed_size": 14687,
+      "compression_ratio": "28.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 78,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_77_1.txt",
+      "original_size": 15073,
+      "compressed_size": 9891,
+      "compression_ratio": "34.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 81,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_78_1.txt",
+      "original_size": 42177,
+      "compressed_size": 29366,
+      "compression_ratio": "30.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 132,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_78_2.txt",
+      "original_size": 37791,
+      "compressed_size": 26893,
+      "compression_ratio": "28.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 129,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_78_3.txt",
+      "original_size": 35168,
+      "compressed_size": 25115,
+      "compression_ratio": "28.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 138,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_78_4.txt",
+      "original_size": 32021,
+      "compressed_size": 23148,
+      "compression_ratio": "27.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 128,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_78_5.txt",
+      "original_size": 31918,
+      "compressed_size": 23370,
+      "compression_ratio": "26.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 142,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_78_6.txt",
+      "original_size": 34638,
+      "compressed_size": 24920,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 146,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_78_7.txt",
+      "original_size": 37000,
+      "compressed_size": 26570,
+      "compression_ratio": "28.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 124,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_78_8.txt",
+      "original_size": 1221,
+      "compressed_size": 871,
+      "compression_ratio": "28.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 9,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_79_1.txt",
+      "original_size": 47433,
+      "compressed_size": 32532,
+      "compression_ratio": "31.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 134,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_79_2.txt",
+      "original_size": 34798,
+      "compressed_size": 25050,
+      "compression_ratio": "28.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 114,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_79_3.txt",
+      "original_size": 36389,
+      "compressed_size": 26162,
+      "compression_ratio": "28.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 123,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_79_4.txt",
+      "original_size": 35004,
+      "compressed_size": 25100,
+      "compression_ratio": "28.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 134,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_79_5.txt",
+      "original_size": 39475,
+      "compressed_size": 27894,
+      "compression_ratio": "29.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 131,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_79_6.txt",
+      "original_size": 16784,
+      "compressed_size": 11761,
+      "compression_ratio": "29.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 61,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_7_1.txt",
+      "original_size": 46656,
+      "compressed_size": 32823,
+      "compression_ratio": "29.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 159,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_7_2.txt",
+      "original_size": 32911,
+      "compressed_size": 22989,
+      "compression_ratio": "30.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 143,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_7_3.txt",
+      "original_size": 30275,
+      "compressed_size": 21357,
+      "compression_ratio": "29.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 162,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_80_1.txt",
+      "original_size": 40992,
+      "compressed_size": 28557,
+      "compression_ratio": "30.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 106,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_80_2.txt",
+      "original_size": 32792,
+      "compressed_size": 23936,
+      "compression_ratio": "27.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 107,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_80_3.txt",
+      "original_size": 35063,
+      "compressed_size": 25553,
+      "compression_ratio": "27.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 124,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_80_4.txt",
+      "original_size": 35089,
+      "compressed_size": 25529,
+      "compression_ratio": "27.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 109,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_80_5.txt",
+      "original_size": 9526,
+      "compressed_size": 6994,
+      "compression_ratio": "26.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 39,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_81_1.txt",
+      "original_size": 41013,
+      "compressed_size": 28281,
+      "compression_ratio": "31.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 157,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_82_1.txt",
+      "original_size": 59107,
+      "compressed_size": 40581,
+      "compression_ratio": "31.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 156,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_82_2.txt",
+      "original_size": 54437,
+      "compressed_size": 38041,
+      "compression_ratio": "30.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 127,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_82_3.txt",
+      "original_size": 44176,
+      "compressed_size": 32180,
+      "compression_ratio": "27.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 176,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_82_4.txt",
+      "original_size": 26915,
+      "compressed_size": 19816,
+      "compression_ratio": "26.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 112,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_83-2_1.txt",
+      "original_size": 32632,
+      "compressed_size": 23374,
+      "compression_ratio": "28.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 139,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_84_1.txt",
+      "original_size": 47913,
+      "compressed_size": 34792,
+      "compression_ratio": "27.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 201,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_84_2.txt",
+      "original_size": 41605,
+      "compressed_size": 31674,
+      "compression_ratio": "23.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 149,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_84_3.txt",
+      "original_size": 41512,
+      "compressed_size": 31439,
+      "compression_ratio": "24.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 167,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_84_4.txt",
+      "original_size": 6999,
+      "compressed_size": 5279,
+      "compression_ratio": "24.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 43,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_85_1.txt",
+      "original_size": 45691,
+      "compressed_size": 33732,
+      "compression_ratio": "26.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 200,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_85_2.txt",
+      "original_size": 43085,
+      "compressed_size": 32338,
+      "compression_ratio": "24.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 134,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_85_3.txt",
+      "original_size": 7539,
+      "compressed_size": 5770,
+      "compression_ratio": "23.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 40,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_86_1.txt",
+      "original_size": 47063,
+      "compressed_size": 34672,
+      "compression_ratio": "26.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 180,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_86_2.txt",
+      "original_size": 10355,
+      "compressed_size": 7860,
+      "compression_ratio": "24.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 58,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_87_1.txt",
+      "original_size": 44754,
+      "compressed_size": 33478,
+      "compression_ratio": "25.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 186,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_87_2.txt",
+      "original_size": 38015,
+      "compressed_size": 29551,
+      "compression_ratio": "22.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 140,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_87_3.txt",
+      "original_size": 13611,
+      "compressed_size": 10616,
+      "compression_ratio": "22.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 58,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_88_1.txt",
+      "original_size": 36158,
+      "compressed_size": 27059,
+      "compression_ratio": "25.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 171,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_89_1.txt",
+      "original_size": 43611,
+      "compressed_size": 32743,
+      "compression_ratio": "24.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 134,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_89_2.txt",
+      "original_size": 50672,
+      "compressed_size": 38170,
+      "compression_ratio": "24.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 92,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_8_1.txt",
+      "original_size": 19852,
+      "compressed_size": 14988,
+      "compression_ratio": "24.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 87,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_8_10.txt",
+      "original_size": 1724,
+      "compressed_size": 1349,
+      "compression_ratio": "21.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 6,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_8_2.txt",
+      "original_size": 18598,
+      "compressed_size": 13813,
+      "compression_ratio": "25.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 58,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_8_3.txt",
+      "original_size": 17228,
+      "compressed_size": 12593,
+      "compression_ratio": "26.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 57,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_8_4.txt",
+      "original_size": 19230,
+      "compressed_size": 13976,
+      "compression_ratio": "27.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 84,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_8_5.txt",
+      "original_size": 17293,
+      "compressed_size": 13012,
+      "compression_ratio": "24.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 68,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_8_6.txt",
+      "original_size": 18528,
+      "compressed_size": 13636,
+      "compression_ratio": "26.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 59,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_8_7.txt",
+      "original_size": 18134,
+      "compressed_size": 13404,
+      "compression_ratio": "26.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 73,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_8_8.txt",
+      "original_size": 17573,
+      "compressed_size": 13094,
+      "compression_ratio": "25.5%",
+      "topics_tracked": 0,
+      "entities_tracked": 84,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_8_9.txt",
+      "original_size": 15831,
+      "compressed_size": 11856,
+      "compression_ratio": "25.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 60,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_90_1.txt",
+      "original_size": 25715,
+      "compressed_size": 18268,
+      "compression_ratio": "29.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 100,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_91_1.txt",
+      "original_size": 47345,
+      "compressed_size": 34881,
+      "compression_ratio": "26.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 166,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_91_2.txt",
+      "original_size": 38596,
+      "compressed_size": 29217,
+      "compression_ratio": "24.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 141,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_91_3.txt",
+      "original_size": 37577,
+      "compressed_size": 27802,
+      "compression_ratio": "26.0%",
+      "topics_tracked": 0,
+      "entities_tracked": 171,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_91_4.txt",
+      "original_size": 22260,
+      "compressed_size": 17193,
+      "compression_ratio": "22.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 85,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_92_1.txt",
+      "original_size": 44893,
+      "compressed_size": 33265,
+      "compression_ratio": "25.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 196,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_92_2.txt",
+      "original_size": 38977,
+      "compressed_size": 29673,
+      "compression_ratio": "23.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 167,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_92_3.txt",
+      "original_size": 34574,
+      "compressed_size": 26421,
+      "compression_ratio": "23.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 153,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_92_4.txt",
+      "original_size": 9302,
+      "compressed_size": 7062,
+      "compression_ratio": "24.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 59,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_93_1.txt",
+      "original_size": 35485,
+      "compressed_size": 25857,
+      "compression_ratio": "27.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 160,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_94_1.txt",
+      "original_size": 40738,
+      "compressed_size": 30259,
+      "compression_ratio": "25.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 210,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_94_2.txt",
+      "original_size": 31901,
+      "compressed_size": 24468,
+      "compression_ratio": "23.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 231,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_94_3.txt",
+      "original_size": 3940,
+      "compressed_size": 3096,
+      "compression_ratio": "21.4%",
+      "topics_tracked": 0,
+      "entities_tracked": 31,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_9_1.txt",
+      "original_size": 56550,
+      "compressed_size": 38080,
+      "compression_ratio": "32.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 294,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_9_2.txt",
+      "original_size": 39538,
+      "compressed_size": 27404,
+      "compression_ratio": "30.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 124,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_9_3.txt",
+      "original_size": 38041,
+      "compressed_size": 26928,
+      "compression_ratio": "29.2%",
+      "topics_tracked": 0,
+      "entities_tracked": 150,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_9_4.txt",
+      "original_size": 31157,
+      "compressed_size": 22337,
+      "compression_ratio": "28.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 89,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "Aitana_9_5.txt",
+      "original_size": 2917,
+      "compressed_size": 2178,
+      "compression_ratio": "25.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 11,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "chunk_urls_full.txt",
+      "original_size": 40565,
+      "compressed_size": 25126,
+      "compression_ratio": "38.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 0,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "chunk_urls_full_20250922_1426_03.txt",
+      "original_size": 53150,
+      "compressed_size": 32881,
+      "compression_ratio": "38.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 0,
+      "blocks_compressed": 0
+    }
+  ],
+  "total_stats": {
+    "files_compressed": 442,
+    "total_original_size": 12392447,
+    "total_compressed_size": 8966143,
+    "overall_compression_ratio": "27.6%"
+  }
+}

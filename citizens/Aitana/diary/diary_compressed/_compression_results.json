@@ -1,0 +1,113 @@
+{
+  "compression_date": "2025-09-23T15:00:47.181355",
+  "config_version": "2.0",
+  "input_folder": "C:/Users/rayse/Dropbox/Projects/GitHub/Digiland/citizens/Aitana/diary",
+  "output_folder": "C:/Users/rayse/Dropbox/Projects/GitHub/Digiland/citizens/Aitana/diary/diary_compressed",
+  "files": [
+    {
+      "filename": "Operator_To_Aitana_Interview_95-2.txt",
+      "original_size": 7434,
+      "compressed_size": 4990,
+      "compression_ratio": "32.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 39,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "diary_10_90_94.md",
+      "original_size": 50757,
+      "compressed_size": 34542,
+      "compression_ratio": "31.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 403,
+      "blocks_compressed": 17
+    },
+    {
+      "filename": "diary_3_20_29_2.md",
+      "original_size": 7686,
+      "compressed_size": 5567,
+      "compression_ratio": "27.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 141,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "diary_4_30_39.md",
+      "original_size": 24951,
+      "compressed_size": 17253,
+      "compression_ratio": "30.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 319,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "diary_5_40_49.md",
+      "original_size": 23328,
+      "compressed_size": 16300,
+      "compression_ratio": "30.1%",
+      "topics_tracked": 0,
+      "entities_tracked": 222,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "diary_6_55-59.md",
+      "original_size": 26976,
+      "compressed_size": 18541,
+      "compression_ratio": "31.3%",
+      "topics_tracked": 0,
+      "entities_tracked": 147,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "diary_7_60_69.md",
+      "original_size": 54546,
+      "compressed_size": 37270,
+      "compression_ratio": "31.7%",
+      "topics_tracked": 0,
+      "entities_tracked": 440,
+      "blocks_compressed": 1
+    },
+    {
+      "filename": "diary_8_70_79.md",
+      "original_size": 65624,
+      "compressed_size": 44917,
+      "compression_ratio": "31.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 435,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "diary_9_80_89.md",
+      "original_size": 82874,
+      "compressed_size": 58205,
+      "compression_ratio": "29.8%",
+      "topics_tracked": 0,
+      "entities_tracked": 575,
+      "blocks_compressed": 0
+    },
+    {
+      "filename": "diary_chapter_2_10_19_3.md",
+      "original_size": 19305,
+      "compressed_size": 12756,
+      "compression_ratio": "33.9%",
+      "topics_tracked": 0,
+      "entities_tracked": 196,
+      "blocks_compressed": 6
+    },
+    {
+      "filename": "diary_summarized_1_2.md",
+      "original_size": 8071,
+      "compressed_size": 5439,
+      "compression_ratio": "32.6%",
+      "topics_tracked": 0,
+      "entities_tracked": 89,
+      "blocks_compressed": 0
+    }
+  ],
+  "total_stats": {
+    "files_compressed": 11,
+    "total_original_size": 371552,
+    "total_compressed_size": 255780,
+    "overall_compression_ratio": "31.2%"
+  }
+}
