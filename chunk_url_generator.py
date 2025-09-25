@@ -65,8 +65,15 @@ def generate_chunk_urls(local_folder_path, github_base_url):
 if __name__ == "__main__":
     # Adjust these paths to match your setup
     #LOCAL_FOLDER = "/path/to/your/local/Digiland/citizens/Aitana/banks/chunked"
-    LOCAL_FOLDER = "citizens/Aitana/banks/chunked"
-    GITHUB_BASE = "https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/"
+    
+    # Next two lines are the default
+    #LOCAL_FOLDER = "citizens/Aitana/banks/chunked"
+    #GITHUB_BASE = "https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/"
+    
+    # Next two lines are temporary for x
+    LOCAL_FOLDER = "citizens/Aitana/banks/chunked-x"
+    GITHUB_BASE = "https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked-x/"    
+    
     #LOCAL_FOLDER = "C:/Users/rayse/Dropbox/Projects/GitHub/Digiland/citizens/Sage_Critical/memory_bank/chunked"
     #GITHUB_BASE = "https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Sage_Critical/memory_bank/chunked/"    
     
@@ -75,5 +82,5 @@ if __name__ == "__main__":
     
     # Optional: Generate for specific bank only
     # You could filter by filename pattern, e.g. "Aitana_50_*.txt"
-    bank_50_urls = [url for url in urls if "Aitana_50_" in url]
-    print(f"\nBank 50 chunks: {len(bank_50_urls)}")
+    #bank_50_urls = [url for url in urls if "Aitana_50_" in url]
+    #print(f"\nBank 50 chunks: {len(bank_50_urls)}")
