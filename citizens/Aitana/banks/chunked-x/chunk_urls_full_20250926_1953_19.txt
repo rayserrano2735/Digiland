@@ -1,0 +1,8 @@
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked-x/Aitana_92-x_1.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked-x/Aitana_93-x_1.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked-x/Aitana_93-x_2.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked-x/Aitana_93-x_3.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked-x/Aitana_93-x_4.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked-x/Aitana_94-x_1.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked-x/chunk_urls_full.txt
+https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked-x/chunk_urls_full_20250925_0911_11.txt
