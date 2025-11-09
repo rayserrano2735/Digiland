@@ -18,4 +18,3 @@ https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citize
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Alba/MemoryBank/chunked/Alba_00009_18.txt
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Alba/MemoryBank/chunked/Alba_00009_19.txt
 https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Alba/MemoryBank/chunked/Alba_00009_20.txt
-https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Alba/MemoryBank/chunked/chunk_urls_full.txt
