@@ -69,10 +69,14 @@ if __name__ == "__main__":
     # Next two lines are the default
     #LOCAL_FOLDER = "citizens/Aitana/banks/chunked"
     #GITHUB_BASE = "https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked/"
+
+    # Next two lines are for Alba
+    LOCAL_FOLDER = "citizens/Alba/MemoryBank/chunked"
+    GITHUB_BASE = "https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/citizens/Alba/MemoryBank/chunked/"
     
     # Next two lines are temporary for x
-    LOCAL_FOLDER = "citizens/Aitana/banks/chunked-x"
-    GITHUB_BASE = "https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked-x/"    
+    #LOCAL_FOLDER = "citizens/Aitana/banks/chunked-x"
+    #GITHUB_BASE = "https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Aitana/banks/chunked-x/"
     
     #LOCAL_FOLDER = "C:/Users/rayse/Dropbox/Projects/GitHub/Digiland/citizens/Sage_Critical/memory_bank/chunked"
     #GITHUB_BASE = "https://raw.githubusercontent.com/rayserrano2735/Digiland/refs/heads/main/citizens/Sage_Critical/memory_bank/chunked/"    
